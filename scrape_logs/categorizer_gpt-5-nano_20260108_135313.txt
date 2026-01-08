@@ -1,0 +1,54 @@
+2026-01-08 13:53:13,094 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_gpt-5-nano_20260108_135313.txt
+2026-01-08 13:53:13,094 - INFO - CLI mode: Processing 1 specified subreddit(s): digitalmarketing
+2026-01-08 13:53:13,095 - INFO - Starting categorization...
+2026-01-08 13:53:13,117 - INFO - Loaded classification rubric
+2026-01-08 13:53:13,118 - INFO - Incremental curated output will be written to /Users/deepak/hotpush/scrape/categorised/curated_gpt-5-nano_20260108_025313Z.json
+2026-01-08 13:53:13,118 - INFO - Found 1 subreddit files to process
+2026-01-08 13:53:13,124 - INFO - Processing digitalmarketing (66 posts)...
+2026-01-08 13:53:13,124 - INFO - Processing 66 posts in 7 batches of up to 10 posts each
+2026-01-08 13:53:13,125 - INFO - Classifying batch 1/7 (10 posts)
+2026-01-08 13:53:13,125 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:53:36,946 - INFO - LLM API call successful for batch_10_posts - tokens: 8654 (prompt: 5660, completion: 2994)
+2026-01-08 13:53:36,946 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:53:36,947 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'playbook': 2, 'rant': 1, 'other': 1, 'listicle': 2}, avg confidence: 0.72
+2026-01-08 13:53:36,947 - INFO - Classifying batch 2/7 (10 posts)
+2026-01-08 13:53:36,947 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:54:09,171 - INFO - LLM API call successful for batch_10_posts - tokens: 7931 (prompt: 4856, completion: 3075)
+2026-01-08 13:54:09,171 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:54:09,172 - INFO - Batch 2 complete - classifications: {'rant': 1, 'value-add': 3, 'playbook': 2, 'listicle': 4}, avg confidence: 0.79
+2026-01-08 13:54:09,172 - INFO - Classifying batch 3/7 (10 posts)
+2026-01-08 13:54:09,172 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:54:30,036 - INFO - LLM API call successful for batch_10_posts - tokens: 6824 (prompt: 4402, completion: 2422)
+2026-01-08 13:54:30,037 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:54:30,037 - INFO - Batch 3 complete - classifications: {'value-add': 5, 'rant': 3, 'playbook': 1, 'listicle': 1}, avg confidence: 0.77
+2026-01-08 13:54:30,037 - INFO - Classifying batch 4/7 (10 posts)
+2026-01-08 13:54:30,037 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:54:59,619 - INFO - LLM API call successful for batch_10_posts - tokens: 8851 (prompt: 4760, completion: 4091)
+2026-01-08 13:54:59,620 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:54:59,620 - INFO - Batch 4 complete - classifications: {'other': 2, 'listicle': 3, 'playbook': 3, 'rant': 1, 'value-add': 1}, avg confidence: 0.75
+2026-01-08 13:54:59,620 - INFO - Classifying batch 5/7 (10 posts)
+2026-01-08 13:54:59,620 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:55:17,007 - INFO - LLM API call successful for batch_10_posts - tokens: 6812 (prompt: 4460, completion: 2352)
+2026-01-08 13:55:17,007 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:55:17,007 - INFO - Batch 5 complete - classifications: {'other': 4, 'playbook': 1, 'listicle': 1, 'value-add': 2, 'rant': 2}, avg confidence: 0.71
+2026-01-08 13:55:17,007 - INFO - Classifying batch 6/7 (10 posts)
+2026-01-08 13:55:17,007 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:55:39,801 - INFO - LLM API call successful for batch_10_posts - tokens: 7127 (prompt: 4502, completion: 2625)
+2026-01-08 13:55:39,801 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:55:39,801 - INFO - Batch 6 complete - classifications: {'other': 5, 'listicle': 2, 'value-add': 3}, avg confidence: 0.69
+2026-01-08 13:55:39,801 - INFO - Classifying batch 7/7 (6 posts)
+2026-01-08 13:55:39,802 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 13:55:56,758 - INFO - LLM API call successful for batch_6_posts - tokens: 5159 (prompt: 3166, completion: 1993)
+2026-01-08 13:55:56,761 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 13:55:56,762 - INFO - Batch 7 complete - classifications: {'other': 3, 'playbook': 1, 'rant': 1, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 13:55:56,766 - INFO - Updated digitalmarketing.json with classifications
+2026-01-08 13:55:56,767 - INFO - digitalmarketing: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 13:55:56,769 - INFO - Wrote curated output to /Users/deepak/hotpush/curated_gpt-5-nano_20260108_025313Z.json
+2026-01-08 13:55:56,769 - INFO - Wrote incremental curated output to /Users/deepak/hotpush/scrape/categorised/curated_gpt-5-nano_20260108_025313Z.json
+2026-01-08 13:55:56,769 - INFO - ============================================================
+2026-01-08 13:55:56,769 - INFO - Categorization Summary:
+2026-01-08 13:55:56,769 - INFO -   - Processed 1 subreddits
+2026-01-08 13:55:56,769 - INFO -   - Total curated posts: 20
+2026-01-08 13:55:56,769 - INFO -   - Average per subreddit: 20.0
+2026-01-08 13:55:56,769 - INFO - ============================================================
+2026-01-08 13:55:56,769 - INFO - Categorization complete!

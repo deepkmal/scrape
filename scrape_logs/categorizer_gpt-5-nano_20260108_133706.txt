@@ -1,0 +1,49 @@
+2026-01-08 13:37:06,718 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_gpt-5-nano_20260108_133706.txt
+2026-01-08 13:37:06,718 - INFO - CLI mode: Processing 1 specified subreddit(s): productivityapps
+2026-01-08 13:37:06,718 - INFO - Starting categorization...
+2026-01-08 13:37:06,738 - INFO - Loaded classification rubric
+2026-01-08 13:37:06,738 - INFO - Incremental curated output will be written to /Users/deepak/hotpush/scrape/categorised/curated_gpt-5-nano_20260108_023706Z.json
+2026-01-08 13:37:06,738 - INFO - Found 1 subreddit files to process
+2026-01-08 13:37:06,744 - INFO - Processing productivityapps (54 posts)...
+2026-01-08 13:37:06,744 - INFO - Processing 54 posts in 6 batches of up to 10 posts each
+2026-01-08 13:37:06,744 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 13:37:06,744 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:37:31,611 - INFO - LLM API call successful for batch_10_posts - tokens: 8332 (prompt: 4889, completion: 3443)
+2026-01-08 13:37:31,611 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:37:31,611 - INFO - Batch 1 complete - classifications: {'other': 7, 'value-add': 1, 'listicle': 2}, avg confidence: 0.64
+2026-01-08 13:37:31,611 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 13:37:31,612 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:37:52,092 - INFO - LLM API call successful for batch_10_posts - tokens: 6587 (prompt: 4323, completion: 2264)
+2026-01-08 13:37:52,092 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:37:52,092 - INFO - Batch 2 complete - classifications: {'value-add': 1, 'other': 8, 'listicle': 1}, avg confidence: 0.60
+2026-01-08 13:37:52,092 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 13:37:52,093 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:38:13,919 - INFO - LLM API call successful for batch_10_posts - tokens: 8529 (prompt: 5617, completion: 2912)
+2026-01-08 13:38:13,920 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:38:13,920 - INFO - Batch 3 complete - classifications: {'other': 5, 'value-add': 3, 'playbook': 1, 'listicle': 1}, avg confidence: 0.67
+2026-01-08 13:38:13,920 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 13:38:13,921 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:38:35,458 - INFO - LLM API call successful for batch_10_posts - tokens: 7558 (prompt: 4694, completion: 2864)
+2026-01-08 13:38:35,459 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:38:35,459 - INFO - Batch 4 complete - classifications: {'playbook': 1, 'value-add': 3, 'other': 6}, avg confidence: 0.62
+2026-01-08 13:38:35,459 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 13:38:35,459 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 13:38:56,420 - INFO - LLM API call successful for batch_10_posts - tokens: 7823 (prompt: 5189, completion: 2634)
+2026-01-08 13:38:56,421 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 13:38:56,421 - INFO - Batch 5 complete - classifications: {'listicle': 4, 'value-add': 4, 'other': 2}, avg confidence: 0.74
+2026-01-08 13:38:56,421 - INFO - Classifying batch 6/6 (4 posts)
+2026-01-08 13:38:56,421 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 13:39:06,892 - INFO - LLM API call successful for batch_4_posts - tokens: 3878 (prompt: 2554, completion: 1324)
+2026-01-08 13:39:06,893 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 13:39:06,893 - INFO - Batch 6 complete - classifications: {'listicle': 3, 'playbook': 1}, avg confidence: 0.87
+2026-01-08 13:39:06,897 - INFO - Updated productivityapps.json with classifications
+2026-01-08 13:39:06,899 - INFO - productivityapps: listicle=5, value-add=5, playbook=3, rant=0
+2026-01-08 13:39:06,901 - INFO - Wrote curated output to /Users/deepak/hotpush/curated_gpt-5-nano_20260108_023706Z.json
+2026-01-08 13:39:06,901 - INFO - Wrote incremental curated output to /Users/deepak/hotpush/scrape/categorised/curated_gpt-5-nano_20260108_023706Z.json
+2026-01-08 13:39:06,901 - INFO - ============================================================
+2026-01-08 13:39:06,901 - INFO - Categorization Summary:
+2026-01-08 13:39:06,901 - INFO -   - Processed 1 subreddits
+2026-01-08 13:39:06,901 - INFO -   - Total curated posts: 13
+2026-01-08 13:39:06,901 - INFO -   - Average per subreddit: 13.0
+2026-01-08 13:39:06,901 - INFO - ============================================================
+2026-01-08 13:39:06,901 - INFO - Categorization complete!

@@ -1,0 +1,7 @@
+2026-01-08 13:19:07,349 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/scraper_20260108_131907.txt
+2026-01-08 13:19:07,349 - INFO - CLI mode: Scraping 1 specified subreddit(s): productivityapps
+2026-01-08 13:19:07,349 - INFO - Starting Reddit scraper...
+2026-01-08 13:19:07,349 - INFO - Processing 1 subreddits (deduped from 1)
+2026-01-08 13:19:07,355 - INFO - Scraping r/productivityapps...
+2026-01-08 13:19:11,592 - INFO - r/productivityapps: Kept 54/101 posts. Filtered: age=0, selftext=17, length=0, bait=2, duplicates=0
+2026-01-08 13:19:11,593 - INFO - Scraping complete!

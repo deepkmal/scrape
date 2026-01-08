@@ -1,0 +1,5 @@
+2026-01-08 10:30:54,571 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_20260108_103054.txt
+2026-01-08 10:30:54,585 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 10:30:55,526 - WARNING - batch_2_posts: model rejected temperature=0.3; retrying without temperature parameter
+2026-01-08 10:31:09,003 - INFO - LLM API call successful for batch_2_posts - tokens: 3199 (prompt: 2197, completion: 1002)
+2026-01-08 10:31:09,003 - INFO - Successfully classified batch_2_posts - got 2 valid classifications

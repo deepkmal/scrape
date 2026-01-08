@@ -1,0 +1,33 @@
+2026-01-08 10:37:26,861 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_gpt-5-nano_20260108_103726.txt
+2026-01-08 10:37:26,862 - INFO - Starting categorization...
+2026-01-08 10:37:26,937 - INFO - Loaded classification rubric
+2026-01-08 10:37:26,937 - INFO - Found 135 subreddit files to process
+2026-01-08 10:37:26,950 - INFO - Processing socialmediamarketing (71 posts)...
+2026-01-08 10:37:26,950 - INFO - Processing 71 posts in 8 batches of up to 10 posts each
+2026-01-08 10:37:26,951 - INFO - Classifying batch 1/8 (10 posts)
+2026-01-08 10:37:26,951 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:37:27,308 - WARNING - batch_10_posts: model rejected temperature=0.3; retrying without temperature parameter
+2026-01-08 10:37:56,403 - INFO - LLM API call successful for batch_10_posts - tokens: 9115 (prompt: 5526, completion: 3589)
+2026-01-08 10:37:56,403 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:37:56,404 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'value-add': 2, 'other': 1, 'playbook': 1, 'rant': 4}, avg confidence: 0.76
+2026-01-08 10:37:56,404 - INFO - Classifying batch 2/8 (10 posts)
+2026-01-08 10:37:56,404 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:37:56,833 - WARNING - batch_10_posts: model rejected temperature=0.3; retrying without temperature parameter
+2026-01-08 10:38:26,629 - INFO - LLM API call successful for batch_10_posts - tokens: 7109 (prompt: 4250, completion: 2859)
+2026-01-08 10:38:26,630 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:38:26,630 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'other': 3, 'rant': 3, 'playbook': 1, 'listicle': 1}, avg confidence: 0.71
+2026-01-08 10:38:26,630 - INFO - Classifying batch 3/8 (10 posts)
+2026-01-08 10:38:26,630 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:38:27,449 - WARNING - batch_10_posts: model rejected temperature=0.3; retrying without temperature parameter
+2026-01-08 10:38:56,452 - INFO - LLM API call successful for batch_10_posts - tokens: 7865 (prompt: 4622, completion: 3243)
+2026-01-08 10:38:56,453 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:38:56,453 - INFO - Batch 3 complete - classifications: {'value-add': 2, 'playbook': 2, 'other': 4, 'rant': 1, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 10:38:56,453 - INFO - Classifying batch 4/8 (10 posts)
+2026-01-08 10:38:56,454 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:38:56,688 - WARNING - batch_10_posts: model rejected temperature=0.3; retrying without temperature parameter
+2026-01-08 10:39:34,858 - INFO - LLM API call successful for batch_10_posts - tokens: 8455 (prompt: 4439, completion: 4016)
+2026-01-08 10:39:34,858 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:39:34,859 - INFO - Batch 4 complete - classifications: {'listicle': 3, 'value-add': 4, 'rant': 2, 'playbook': 1}, avg confidence: 0.68
+2026-01-08 10:39:34,859 - INFO - Classifying batch 5/8 (10 posts)
+2026-01-08 10:39:34,859 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:39:35,109 - WARNING - batch_10_posts: model rejected temperature=0.3; retrying without temperature parameter

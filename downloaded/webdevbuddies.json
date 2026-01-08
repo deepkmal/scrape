@@ -1,0 +1,22 @@
+[
+  {
+    "score": 15,
+    "title": "Would anyone be kind enough to help our a homelessness charity by updating MeteorJS to the latest version? We're a community of volunteer devs but setting up localhost is a nightmare due to our outdated Meteor version and so new devs all drop out. A few of us have tried but haven't been able to.",
+    "selftext": "I was hoping someone here with experience upgrading Meteor would come riding in and basically save the project, as we can't onboard new devs anymore. There are too many conflicts when setting up local host, the app isn't stable enough and everyone gives up and disappears. Upgrading to the latest Meteor version would fix that.\n\nHere's the project: https://github.com/focallocal/fl-maps\n\nHere's a post where i've pulled together all the PRs from our last attempt at upgrading Meteor (..perhaps Tom just missed something small): https://publichappinessmovement.com/t/topic/2832/9\n\nIf we can get this fixed our platform is just a few weeks away from helping people who are homeless all around the world, which i am painfully desperate to see after so many years building. Anyone who wants to help is very welcome to stick around and be part of the community long term too.",
+    "subreddit": "WebDevBuddies",
+    "upvote_ratio": 1.0,
+    "subreddit_type": "restricted",
+    "ups": 15,
+    "downs": 0,
+    "created_utc": 1680716118.0,
+    "media": null,
+    "is_video": false,
+    "num_comments": 1,
+    "num_reports": null,
+    "over_18": false,
+    "category": "",
+    "category_confidence": null,
+    "category_rationale": "",
+    "composite_score": 2.1046349804879156
+  }
+]

@@ -1,0 +1,4 @@
+2026-01-08 10:36:34,163 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_gpt-4o-mini_20260108_103634.txt
+2026-01-08 10:36:34,164 - INFO - Starting categorization...
+2026-01-08 10:36:34,164 - ERROR - OPENAI_API_KEY environment variable is required for categorization
+2026-01-08 10:36:34,165 - ERROR - Please set it in a .env file or as an environment variable

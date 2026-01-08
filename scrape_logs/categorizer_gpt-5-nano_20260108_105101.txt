@@ -1,0 +1,1418 @@
+2026-01-08 10:51:01,382 - INFO - Logging to /Users/deepak/hotpush/scrape/scrape_logs/categorizer_gpt-5-nano_20260108_105101.txt
+2026-01-08 10:51:01,382 - INFO - Starting categorization...
+2026-01-08 10:51:01,406 - INFO - Loaded classification rubric
+2026-01-08 10:51:01,406 - INFO - Incremental curated output will be written to /Users/deepak/hotpush/scrape/categorised/curated_gpt-5-nano_20260107_235101Z.json
+2026-01-08 10:51:01,407 - INFO - Found 135 subreddit files to process
+2026-01-08 10:51:01,413 - INFO - Processing socialmediamarketing (71 posts)...
+2026-01-08 10:51:01,413 - INFO - Processing 71 posts in 8 batches of up to 10 posts each
+2026-01-08 10:51:01,413 - INFO - Classifying batch 1/8 (10 posts)
+2026-01-08 10:51:01,413 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:51:23,168 - INFO - LLM API call successful for batch_10_posts - tokens: 8194 (prompt: 5526, completion: 2668)
+2026-01-08 10:51:23,168 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:51:23,168 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'value-add': 2, 'other': 1, 'playbook': 1, 'rant': 4}, avg confidence: 0.78
+2026-01-08 10:51:23,169 - INFO - Classifying batch 2/8 (10 posts)
+2026-01-08 10:51:23,169 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:51:46,484 - INFO - LLM API call successful for batch_10_posts - tokens: 6940 (prompt: 4250, completion: 2690)
+2026-01-08 10:51:46,484 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:51:46,484 - INFO - Batch 2 complete - classifications: {'other': 4, 'rant': 3, 'playbook': 1, 'value-add': 1, 'listicle': 1}, avg confidence: 0.70
+2026-01-08 10:51:46,484 - INFO - Classifying batch 3/8 (10 posts)
+2026-01-08 10:51:46,485 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:52:15,134 - INFO - LLM API call successful for batch_10_posts - tokens: 7161 (prompt: 4622, completion: 2539)
+2026-01-08 10:52:15,134 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:52:15,135 - INFO - Batch 3 complete - classifications: {'value-add': 3, 'playbook': 1, 'other': 4, 'listicle': 1, 'rant': 1}, avg confidence: 0.70
+2026-01-08 10:52:15,135 - INFO - Classifying batch 4/8 (10 posts)
+2026-01-08 10:52:15,135 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:52:44,061 - INFO - LLM API call successful for batch_10_posts - tokens: 7353 (prompt: 4439, completion: 2914)
+2026-01-08 10:52:44,061 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:52:44,061 - INFO - Batch 4 complete - classifications: {'listicle': 1, 'other': 2, 'rant': 2, 'value-add': 3, 'playbook': 2}, avg confidence: 0.70
+2026-01-08 10:52:44,061 - INFO - Classifying batch 5/8 (10 posts)
+2026-01-08 10:52:44,062 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:53:10,965 - INFO - LLM API call successful for batch_10_posts - tokens: 8028 (prompt: 4752, completion: 3276)
+2026-01-08 10:53:10,966 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:53:10,966 - INFO - Batch 5 complete - classifications: {'other': 3, 'rant': 1, 'listicle': 3, 'value-add': 2, 'playbook': 1}, avg confidence: 0.74
+2026-01-08 10:53:10,966 - INFO - Classifying batch 6/8 (10 posts)
+2026-01-08 10:53:10,966 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:53:28,920 - INFO - LLM API call successful for batch_10_posts - tokens: 7022 (prompt: 4491, completion: 2531)
+2026-01-08 10:53:28,921 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:53:28,921 - INFO - Batch 6 complete - classifications: {'listicle': 2, 'rant': 3, 'other': 2, 'value-add': 2, 'playbook': 1}, avg confidence: 0.73
+2026-01-08 10:53:28,921 - INFO - Classifying batch 7/8 (10 posts)
+2026-01-08 10:53:28,922 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:53:51,413 - INFO - LLM API call successful for batch_10_posts - tokens: 7263 (prompt: 4574, completion: 2689)
+2026-01-08 10:53:51,414 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:53:51,414 - INFO - Batch 7 complete - classifications: {'other': 6, 'playbook': 1, 'value-add': 1, 'rant': 2}, avg confidence: 0.64
+2026-01-08 10:53:51,414 - INFO - Classifying batch 8/8 (1 posts)
+2026-01-08 10:53:51,414 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 10:53:55,362 - INFO - LLM API call successful for batch_1_posts - tokens: 2372 (prompt: 1929, completion: 443)
+2026-01-08 10:53:55,363 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 10:53:55,363 - INFO - Batch 8 complete - classifications: {'other': 1}, avg confidence: 0.62
+2026-01-08 10:53:55,380 - INFO - Updated socialmediamarketing.json with classifications
+2026-01-08 10:53:55,381 - INFO - socialmediamarketing: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 10:53:55,382 - INFO - Processing indiainvestments (21 posts)...
+2026-01-08 10:53:55,382 - INFO - Processing 21 posts in 3 batches of up to 10 posts each
+2026-01-08 10:53:55,382 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 10:53:55,382 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:54:14,403 - INFO - LLM API call successful for batch_10_posts - tokens: 7580 (prompt: 4964, completion: 2616)
+2026-01-08 10:54:14,403 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:54:14,404 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'listicle': 2, 'other': 4}, avg confidence: 0.64
+2026-01-08 10:54:14,404 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 10:54:14,404 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:54:43,347 - INFO - LLM API call successful for batch_10_posts - tokens: 8671 (prompt: 5615, completion: 3056)
+2026-01-08 10:54:43,347 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:54:43,348 - INFO - Batch 2 complete - classifications: {'listicle': 1, 'value-add': 7, 'other': 2}, avg confidence: 0.65
+2026-01-08 10:54:43,348 - INFO - Classifying batch 3/3 (1 posts)
+2026-01-08 10:54:43,348 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 10:54:49,166 - INFO - LLM API call successful for batch_1_posts - tokens: 2884 (prompt: 2313, completion: 571)
+2026-01-08 10:54:49,166 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 10:54:49,167 - INFO - Batch 3 complete - classifications: {'value-add': 1}, avg confidence: 0.74
+2026-01-08 10:54:49,172 - INFO - Updated indiainvestments.json with classifications
+2026-01-08 10:54:49,173 - INFO - indiainvestments: listicle=3, value-add=5, playbook=0, rant=0
+2026-01-08 10:54:49,175 - INFO - Processing foodtech (16 posts)...
+2026-01-08 10:54:49,175 - INFO - Processing 16 posts in 2 batches of up to 10 posts each
+2026-01-08 10:54:49,175 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 10:54:49,176 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:55:10,215 - INFO - LLM API call successful for batch_10_posts - tokens: 7103 (prompt: 4415, completion: 2688)
+2026-01-08 10:55:10,216 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:55:10,216 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'other': 4, 'rant': 1, 'listicle': 1}, avg confidence: 0.70
+2026-01-08 10:55:10,216 - INFO - Classifying batch 2/2 (6 posts)
+2026-01-08 10:55:10,216 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 10:55:26,336 - INFO - LLM API call successful for batch_6_posts - tokens: 4761 (prompt: 3139, completion: 1622)
+2026-01-08 10:55:26,337 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 10:55:26,337 - INFO - Batch 2 complete - classifications: {'value-add': 4, 'other': 2}, avg confidence: 0.65
+2026-01-08 10:55:26,343 - INFO - Updated foodtech.json with classifications
+2026-01-08 10:55:26,344 - INFO - foodtech: listicle=1, value-add=5, playbook=0, rant=1
+2026-01-08 10:55:26,345 - INFO - Processing canadianinvestor (3 posts)...
+2026-01-08 10:55:26,345 - INFO - Processing 3 posts in 1 batches of up to 10 posts each
+2026-01-08 10:55:26,345 - INFO - Classifying batch 1/1 (3 posts)
+2026-01-08 10:55:26,345 - INFO - Starting LLM classification for batch_3_posts
+2026-01-08 10:55:34,949 - INFO - LLM API call successful for batch_3_posts - tokens: 3347 (prompt: 2438, completion: 909)
+2026-01-08 10:55:34,949 - INFO - Successfully classified batch_3_posts - got 3 valid classifications
+2026-01-08 10:55:34,950 - INFO - Batch 1 complete - classifications: {'other': 2, 'value-add': 1}, avg confidence: 0.67
+2026-01-08 10:55:34,953 - INFO - Updated canadianinvestor.json with classifications
+2026-01-08 10:55:34,953 - INFO - canadianinvestor: listicle=0, value-add=1, playbook=0, rant=0
+2026-01-08 10:55:34,954 - WARNING - No posts in workfromhome.json
+2026-01-08 10:55:34,956 - INFO - Processing healthit (48 posts)...
+2026-01-08 10:55:34,956 - INFO - Processing 48 posts in 5 batches of up to 10 posts each
+2026-01-08 10:55:34,956 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 10:55:34,957 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:56:00,363 - INFO - LLM API call successful for batch_10_posts - tokens: 8052 (prompt: 4775, completion: 3277)
+2026-01-08 10:56:00,363 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:56:00,364 - INFO - Batch 1 complete - classifications: {'value-add': 5, 'rant': 3, 'playbook': 1, 'other': 1}, avg confidence: 0.68
+2026-01-08 10:56:00,364 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 10:56:00,364 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:56:17,930 - INFO - LLM API call successful for batch_10_posts - tokens: 5964 (prompt: 3736, completion: 2228)
+2026-01-08 10:56:17,930 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:56:17,930 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'other': 3, 'listicle': 1, 'rant': 4}, avg confidence: 0.71
+2026-01-08 10:56:17,930 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 10:56:17,931 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:56:39,239 - INFO - LLM API call successful for batch_10_posts - tokens: 6751 (prompt: 4276, completion: 2475)
+2026-01-08 10:56:39,240 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:56:39,240 - INFO - Batch 3 complete - classifications: {'rant': 5, 'other': 5}, avg confidence: 0.68
+2026-01-08 10:56:39,240 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 10:56:39,241 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:57:06,846 - INFO - LLM API call successful for batch_10_posts - tokens: 6960 (prompt: 4165, completion: 2795)
+2026-01-08 10:57:06,846 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:57:06,846 - INFO - Batch 4 complete - classifications: {'rant': 2, 'other': 5, 'value-add': 3}, avg confidence: 0.62
+2026-01-08 10:57:06,847 - INFO - Classifying batch 5/5 (8 posts)
+2026-01-08 10:57:06,847 - INFO - Starting LLM classification for batch_8_posts
+2026-01-08 10:57:26,437 - INFO - LLM API call successful for batch_8_posts - tokens: 5528 (prompt: 3575, completion: 1953)
+2026-01-08 10:57:26,437 - INFO - Successfully classified batch_8_posts - got 8 valid classifications
+2026-01-08 10:57:26,437 - INFO - Batch 5 complete - classifications: {'other': 4, 'rant': 4}, avg confidence: 0.64
+2026-01-08 10:57:26,440 - INFO - Updated healthit.json with classifications
+2026-01-08 10:57:26,441 - INFO - healthit: listicle=1, value-add=5, playbook=1, rant=5
+2026-01-08 10:57:26,442 - INFO - Processing fintech (37 posts)...
+2026-01-08 10:57:26,442 - INFO - Processing 37 posts in 4 batches of up to 10 posts each
+2026-01-08 10:57:26,442 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 10:57:26,442 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 10:57:44,446 - INFO - LLM API call successful for batch_10_posts - tokens: 6786 (prompt: 4803, completion: 1983)
+2026-01-08 10:57:44,446 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 10:57:44,447 - INFO - Batch 1 complete - classifications: {'value-add': 6, 'other': 3, 'rant': 1}, avg confidence: 0.65
+2026-01-08 10:57:44,447 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 10:57:44,447 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:27:51,730 - INFO - LLM API call successful for batch_10_posts - tokens: 7088 (prompt: 4352, completion: 2736)
+2026-01-08 11:27:51,731 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:27:51,732 - INFO - Batch 2 complete - classifications: {'other': 4, 'value-add': 5, 'listicle': 1}, avg confidence: 0.63
+2026-01-08 11:27:51,732 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:27:51,732 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:28:15,392 - INFO - LLM API call successful for batch_10_posts - tokens: 6182 (prompt: 3738, completion: 2444)
+2026-01-08 11:28:15,393 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:28:15,393 - INFO - Batch 3 complete - classifications: {'other': 7, 'rant': 1, 'listicle': 1, 'value-add': 1}, avg confidence: 0.67
+2026-01-08 11:28:15,393 - INFO - Classifying batch 4/4 (7 posts)
+2026-01-08 11:28:15,393 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 11:28:37,112 - INFO - LLM API call successful for batch_7_posts - tokens: 6196 (prompt: 3558, completion: 2638)
+2026-01-08 11:28:37,112 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 11:28:37,112 - INFO - Batch 4 complete - classifications: {'value-add': 3, 'other': 1, 'listicle': 3}, avg confidence: 0.68
+2026-01-08 11:28:37,120 - INFO - Updated fintech.json with classifications
+2026-01-08 11:28:37,122 - INFO - fintech: listicle=5, value-add=5, playbook=0, rant=2
+2026-01-08 11:28:37,125 - INFO - Processing digital_marketing (29 posts)...
+2026-01-08 11:28:37,125 - INFO - Processing 29 posts in 3 batches of up to 10 posts each
+2026-01-08 11:28:37,126 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 11:28:37,126 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:29:01,270 - INFO - LLM API call successful for batch_10_posts - tokens: 8246 (prompt: 5315, completion: 2931)
+2026-01-08 11:29:01,270 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:29:01,270 - INFO - Batch 1 complete - classifications: {'other': 3, 'listicle': 2, 'rant': 3, 'playbook': 2}, avg confidence: 0.74
+2026-01-08 11:29:01,270 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 11:29:01,271 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:29:24,761 - INFO - LLM API call successful for batch_10_posts - tokens: 8481 (prompt: 5553, completion: 2928)
+2026-01-08 11:29:24,761 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:29:24,761 - INFO - Batch 2 complete - classifications: {'playbook': 3, 'value-add': 4, 'rant': 2, 'listicle': 1}, avg confidence: 0.81
+2026-01-08 11:29:24,762 - INFO - Classifying batch 3/3 (9 posts)
+2026-01-08 11:29:24,762 - INFO - Starting LLM classification for batch_9_posts
+2026-01-08 11:29:47,212 - INFO - LLM API call successful for batch_9_posts - tokens: 8214 (prompt: 5635, completion: 2579)
+2026-01-08 11:29:47,212 - INFO - Successfully classified batch_9_posts - got 9 valid classifications
+2026-01-08 11:29:47,212 - INFO - Batch 3 complete - classifications: {'other': 1, 'listicle': 4, 'value-add': 2, 'playbook': 2}, avg confidence: 0.70
+2026-01-08 11:29:47,220 - INFO - Updated digital_marketing.json with classifications
+2026-01-08 11:29:47,222 - INFO - digital_marketing: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 11:29:47,224 - INFO - Processing digitalnomad (10 posts)...
+2026-01-08 11:29:47,224 - INFO - Processing 10 posts in 1 batches of up to 10 posts each
+2026-01-08 11:29:47,224 - INFO - Classifying batch 1/1 (10 posts)
+2026-01-08 11:29:47,224 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:30:09,812 - INFO - LLM API call successful for batch_10_posts - tokens: 8173 (prompt: 5370, completion: 2803)
+2026-01-08 11:30:09,813 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:30:09,813 - INFO - Batch 1 complete - classifications: {'rant': 2, 'listicle': 3, 'value-add': 2, 'playbook': 1, 'other': 2}, avg confidence: 0.69
+2026-01-08 11:30:09,815 - INFO - Updated digitalnomad.json with classifications
+2026-01-08 11:30:09,816 - INFO - digitalnomad: listicle=3, value-add=2, playbook=1, rant=2
+2026-01-08 11:30:09,817 - INFO - Processing softwareengineering (25 posts)...
+2026-01-08 11:30:09,817 - INFO - Processing 25 posts in 3 batches of up to 10 posts each
+2026-01-08 11:30:09,817 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 11:30:09,817 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:30:36,649 - INFO - LLM API call successful for batch_10_posts - tokens: 7817 (prompt: 4428, completion: 3389)
+2026-01-08 11:30:36,649 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:30:36,649 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'other': 4, 'playbook': 1, 'rant': 1}, avg confidence: 0.60
+2026-01-08 11:30:36,649 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 11:30:36,650 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:30:57,260 - INFO - LLM API call successful for batch_10_posts - tokens: 7477 (prompt: 4714, completion: 2763)
+2026-01-08 11:30:57,260 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:30:57,260 - INFO - Batch 2 complete - classifications: {'value-add': 5, 'listicle': 1, 'other': 2, 'rant': 2}, avg confidence: 0.71
+2026-01-08 11:30:57,260 - INFO - Classifying batch 3/3 (5 posts)
+2026-01-08 11:30:57,260 - INFO - Starting LLM classification for batch_5_posts
+2026-01-08 11:31:12,896 - INFO - LLM API call successful for batch_5_posts - tokens: 4895 (prompt: 3064, completion: 1831)
+2026-01-08 11:31:12,896 - INFO - Successfully classified batch_5_posts - got 5 valid classifications
+2026-01-08 11:31:12,897 - INFO - Batch 3 complete - classifications: {'value-add': 2, 'other': 2, 'rant': 1}, avg confidence: 0.69
+2026-01-08 11:31:12,903 - INFO - Updated softwareengineering.json with classifications
+2026-01-08 11:31:12,904 - INFO - softwareengineering: listicle=1, value-add=5, playbook=1, rant=4
+2026-01-08 11:31:12,908 - INFO - Processing digitalmarketing (66 posts)...
+2026-01-08 11:31:12,908 - INFO - Processing 66 posts in 7 batches of up to 10 posts each
+2026-01-08 11:31:12,908 - INFO - Classifying batch 1/7 (10 posts)
+2026-01-08 11:31:12,908 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:31:34,261 - INFO - LLM API call successful for batch_10_posts - tokens: 8451 (prompt: 5668, completion: 2783)
+2026-01-08 11:31:34,261 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:31:34,261 - INFO - Batch 1 complete - classifications: {'rant': 3, 'value-add': 3, 'other': 1, 'playbook': 1, 'listicle': 2}, avg confidence: 0.74
+2026-01-08 11:31:34,261 - INFO - Classifying batch 2/7 (10 posts)
+2026-01-08 11:31:34,261 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:31:57,508 - INFO - LLM API call successful for batch_10_posts - tokens: 7915 (prompt: 4864, completion: 3051)
+2026-01-08 11:31:57,508 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:31:57,508 - INFO - Batch 2 complete - classifications: {'rant': 1, 'listicle': 5, 'value-add': 2, 'playbook': 2}, avg confidence: 0.73
+2026-01-08 11:31:57,508 - INFO - Classifying batch 3/7 (10 posts)
+2026-01-08 11:31:57,508 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:32:15,623 - INFO - LLM API call successful for batch_10_posts - tokens: 6687 (prompt: 4410, completion: 2277)
+2026-01-08 11:32:15,625 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:32:15,625 - INFO - Batch 3 complete - classifications: {'value-add': 3, 'rant': 3, 'other': 2, 'playbook': 1, 'listicle': 1}, avg confidence: 0.74
+2026-01-08 11:32:15,625 - INFO - Classifying batch 4/7 (10 posts)
+2026-01-08 11:32:15,625 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:32:38,802 - INFO - LLM API call successful for batch_10_posts - tokens: 7882 (prompt: 4768, completion: 3114)
+2026-01-08 11:32:38,803 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:32:38,803 - INFO - Batch 4 complete - classifications: {'other': 4, 'listicle': 3, 'rant': 1, 'playbook': 2}, avg confidence: 0.76
+2026-01-08 11:32:38,803 - INFO - Classifying batch 5/7 (10 posts)
+2026-01-08 11:32:38,803 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:32:54,807 - INFO - LLM API call successful for batch_10_posts - tokens: 6500 (prompt: 4468, completion: 2032)
+2026-01-08 11:32:54,807 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:32:54,808 - INFO - Batch 5 complete - classifications: {'other': 4, 'playbook': 1, 'listicle': 1, 'value-add': 1, 'rant': 3}, avg confidence: 0.73
+2026-01-08 11:32:54,808 - INFO - Classifying batch 6/7 (10 posts)
+2026-01-08 11:32:54,808 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:33:11,227 - INFO - LLM API call successful for batch_10_posts - tokens: 6418 (prompt: 4510, completion: 1908)
+2026-01-08 11:33:11,228 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:33:11,228 - INFO - Batch 6 complete - classifications: {'other': 5, 'listicle': 2, 'rant': 1, 'value-add': 2}, avg confidence: 0.71
+2026-01-08 11:33:11,228 - INFO - Classifying batch 7/7 (6 posts)
+2026-01-08 11:33:11,228 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 11:33:24,437 - INFO - LLM API call successful for batch_6_posts - tokens: 4860 (prompt: 3174, completion: 1686)
+2026-01-08 11:33:24,438 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 11:33:24,438 - INFO - Batch 7 complete - classifications: {'other': 3, 'playbook': 1, 'rant': 1, 'listicle': 1}, avg confidence: 0.72
+2026-01-08 11:33:24,448 - INFO - Updated digitalmarketing.json with classifications
+2026-01-08 11:33:24,452 - INFO - digitalmarketing: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 11:33:24,453 - INFO - Processing hwstartups (22 posts)...
+2026-01-08 11:33:24,456 - INFO - Processing 22 posts in 3 batches of up to 10 posts each
+2026-01-08 11:33:24,456 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 11:33:24,456 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:33:51,339 - INFO - LLM API call successful for batch_10_posts - tokens: 9312 (prompt: 5325, completion: 3987)
+2026-01-08 11:33:51,341 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:33:51,341 - INFO - Batch 1 complete - classifications: {'listicle': 4, 'value-add': 5, 'other': 1}, avg confidence: 0.62
+2026-01-08 11:33:51,341 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 11:33:51,341 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:34:15,482 - INFO - LLM API call successful for batch_10_posts - tokens: 7647 (prompt: 4314, completion: 3333)
+2026-01-08 11:34:15,483 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:34:15,484 - INFO - Batch 2 complete - classifications: {'value-add': 1, 'rant': 2, 'other': 6, 'playbook': 1}, avg confidence: 0.62
+2026-01-08 11:34:15,484 - INFO - Classifying batch 3/3 (2 posts)
+2026-01-08 11:34:15,484 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 11:34:30,746 - INFO - LLM API call successful for batch_2_posts - tokens: 4132 (prompt: 2365, completion: 1767)
+2026-01-08 11:34:30,747 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 11:34:30,747 - INFO - Batch 3 complete - classifications: {'other': 1, 'playbook': 1}, avg confidence: 0.69
+2026-01-08 11:34:30,752 - INFO - Updated hwstartups.json with classifications
+2026-01-08 11:34:30,753 - INFO - hwstartups: listicle=4, value-add=5, playbook=2, rant=2
+2026-01-08 11:34:30,755 - INFO - Processing roastmystartup (58 posts)...
+2026-01-08 11:34:30,755 - INFO - Processing 58 posts in 6 batches of up to 10 posts each
+2026-01-08 11:34:30,755 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 11:34:30,755 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:34:54,136 - INFO - LLM API call successful for batch_10_posts - tokens: 7658 (prompt: 4982, completion: 2676)
+2026-01-08 11:34:54,137 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:34:54,137 - INFO - Batch 1 complete - classifications: {'value-add': 9, 'rant': 1}, avg confidence: 0.69
+2026-01-08 11:34:54,137 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 11:34:54,137 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:35:22,941 - INFO - LLM API call successful for batch_10_posts - tokens: 9421 (prompt: 5832, completion: 3589)
+2026-01-08 11:35:22,942 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:35:22,943 - INFO - Batch 2 complete - classifications: {'other': 1, 'listicle': 1, 'value-add': 8}, avg confidence: 0.75
+2026-01-08 11:35:22,943 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 11:35:22,943 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:35:51,818 - INFO - LLM API call successful for batch_10_posts - tokens: 8235 (prompt: 5121, completion: 3114)
+2026-01-08 11:35:51,818 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:35:51,819 - INFO - Batch 3 complete - classifications: {'value-add': 10}, avg confidence: 0.62
+2026-01-08 11:35:51,819 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 11:35:51,819 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:36:16,674 - INFO - LLM API call successful for batch_10_posts - tokens: 8799 (prompt: 5874, completion: 2925)
+2026-01-08 11:36:16,675 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:36:16,675 - INFO - Batch 4 complete - classifications: {'value-add': 10}, avg confidence: 0.60
+2026-01-08 11:36:16,675 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 11:36:16,676 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:36:35,505 - INFO - LLM API call successful for batch_10_posts - tokens: 8428 (prompt: 6073, completion: 2355)
+2026-01-08 11:36:35,505 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:36:35,506 - INFO - Batch 5 complete - classifications: {'value-add': 10}, avg confidence: 0.71
+2026-01-08 11:36:35,506 - INFO - Classifying batch 6/6 (8 posts)
+2026-01-08 11:36:35,506 - INFO - Starting LLM classification for batch_8_posts
+2026-01-08 11:36:52,846 - INFO - LLM API call successful for batch_8_posts - tokens: 6595 (prompt: 4457, completion: 2138)
+2026-01-08 11:36:52,847 - INFO - Successfully classified batch_8_posts - got 8 valid classifications
+2026-01-08 11:36:52,847 - INFO - Batch 6 complete - classifications: {'rant': 1, 'value-add': 7}, avg confidence: 0.70
+2026-01-08 11:36:52,853 - INFO - Updated roastmystartup.json with classifications
+2026-01-08 11:36:52,854 - INFO - roastmystartup: listicle=1, value-add=5, playbook=0, rant=2
+2026-01-08 11:36:52,857 - INFO - Processing logodesign (7 posts)...
+2026-01-08 11:36:52,857 - INFO - Processing 7 posts in 1 batches of up to 10 posts each
+2026-01-08 11:36:52,857 - INFO - Classifying batch 1/1 (7 posts)
+2026-01-08 11:36:52,857 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 11:37:18,873 - INFO - LLM API call successful for batch_7_posts - tokens: 6207 (prompt: 3135, completion: 3072)
+2026-01-08 11:37:18,874 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 11:37:18,874 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'other': 3}, avg confidence: 0.65
+2026-01-08 11:37:18,876 - INFO - Updated logodesign.json with classifications
+2026-01-08 11:37:18,877 - INFO - logodesign: listicle=0, value-add=4, playbook=0, rant=0
+2026-01-08 11:37:18,881 - INFO - Processing productivity (57 posts)...
+2026-01-08 11:37:18,881 - INFO - Processing 57 posts in 6 batches of up to 10 posts each
+2026-01-08 11:37:18,881 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 11:37:18,881 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:37:42,795 - INFO - LLM API call successful for batch_10_posts - tokens: 7958 (prompt: 4895, completion: 3063)
+2026-01-08 11:37:42,796 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:37:42,796 - INFO - Batch 1 complete - classifications: {'rant': 2, 'value-add': 3, 'playbook': 4, 'other': 1}, avg confidence: 0.72
+2026-01-08 11:37:42,796 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 11:37:42,796 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:38:00,625 - INFO - LLM API call successful for batch_10_posts - tokens: 7318 (prompt: 5041, completion: 2277)
+2026-01-08 11:38:00,626 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:38:00,626 - INFO - Batch 2 complete - classifications: {'listicle': 2, 'playbook': 4, 'value-add': 4}, avg confidence: 0.74
+2026-01-08 11:38:00,626 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 11:38:00,627 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:38:19,715 - INFO - LLM API call successful for batch_10_posts - tokens: 7416 (prompt: 4909, completion: 2507)
+2026-01-08 11:38:19,715 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:38:19,715 - INFO - Batch 3 complete - classifications: {'value-add': 7, 'playbook': 2, 'listicle': 1}, avg confidence: 0.77
+2026-01-08 11:38:19,716 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 11:38:19,716 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:42:31,384 - INFO - LLM API call successful for batch_10_posts - tokens: 7583 (prompt: 5080, completion: 2503)
+2026-01-08 11:42:31,385 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:42:31,385 - INFO - Batch 4 complete - classifications: {'playbook': 3, 'value-add': 5, 'other': 1, 'listicle': 1}, avg confidence: 0.75
+2026-01-08 11:42:31,386 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 11:42:31,386 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:43:00,232 - INFO - LLM API call successful for batch_10_posts - tokens: 8183 (prompt: 5069, completion: 3114)
+2026-01-08 11:43:00,233 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:43:00,233 - INFO - Batch 5 complete - classifications: {'listicle': 2, 'playbook': 3, 'value-add': 2, 'other': 3}, avg confidence: 0.73
+2026-01-08 11:43:00,234 - INFO - Classifying batch 6/6 (7 posts)
+2026-01-08 11:43:00,234 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 11:43:18,972 - INFO - LLM API call successful for batch_7_posts - tokens: 5597 (prompt: 3241, completion: 2356)
+2026-01-08 11:43:18,973 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 11:43:18,973 - INFO - Batch 6 complete - classifications: {'value-add': 3, 'other': 1, 'rant': 2, 'listicle': 1}, avg confidence: 0.72
+2026-01-08 11:43:18,976 - INFO - Updated productivity.json with classifications
+2026-01-08 11:43:18,978 - INFO - productivity: listicle=5, value-add=5, playbook=5, rant=4
+2026-01-08 11:43:18,979 - WARNING - No posts in api.json
+2026-01-08 11:43:18,980 - INFO - Processing product_design (1 posts)...
+2026-01-08 11:43:18,980 - INFO - Processing 1 posts in 1 batches of up to 10 posts each
+2026-01-08 11:43:18,980 - INFO - Classifying batch 1/1 (1 posts)
+2026-01-08 11:43:18,980 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 11:43:23,233 - INFO - LLM API call successful for batch_1_posts - tokens: 2482 (prompt: 2041, completion: 441)
+2026-01-08 11:43:23,233 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 11:43:23,234 - INFO - Batch 1 complete - classifications: {'value-add': 1}, avg confidence: 0.75
+2026-01-08 11:43:23,236 - INFO - Updated product_design.json with classifications
+2026-01-08 11:43:23,236 - INFO - product_design: listicle=0, value-add=1, playbook=0, rant=0
+2026-01-08 11:43:23,237 - WARNING - No posts in learndesign.json
+2026-01-08 11:43:23,238 - INFO - Processing userexperiencedesign (6 posts)...
+2026-01-08 11:43:23,238 - INFO - Processing 6 posts in 1 batches of up to 10 posts each
+2026-01-08 11:43:23,238 - INFO - Classifying batch 1/1 (6 posts)
+2026-01-08 11:43:23,238 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 11:43:38,909 - INFO - LLM API call successful for batch_6_posts - tokens: 4902 (prompt: 3458, completion: 1444)
+2026-01-08 11:43:38,909 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 11:43:38,909 - INFO - Batch 1 complete - classifications: {'value-add': 3, 'playbook': 1, 'other': 1, 'rant': 1}, avg confidence: 0.76
+2026-01-08 11:43:38,911 - INFO - Updated userexperiencedesign.json with classifications
+2026-01-08 11:43:38,912 - INFO - userexperiencedesign: listicle=0, value-add=3, playbook=1, rant=1
+2026-01-08 11:43:38,914 - INFO - Processing salesforcecareers (31 posts)...
+2026-01-08 11:43:38,914 - INFO - Processing 31 posts in 4 batches of up to 10 posts each
+2026-01-08 11:43:38,915 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 11:43:38,915 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:43:56,093 - INFO - LLM API call successful for batch_10_posts - tokens: 6712 (prompt: 4544, completion: 2168)
+2026-01-08 11:43:56,094 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:43:56,094 - INFO - Batch 1 complete - classifications: {'other': 6, 'rant': 1, 'value-add': 2, 'playbook': 1}, avg confidence: 0.65
+2026-01-08 11:43:56,094 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 11:43:56,095 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:44:09,048 - INFO - LLM API call successful for batch_10_posts - tokens: 6535 (prompt: 4512, completion: 2023)
+2026-01-08 11:44:09,049 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:44:09,049 - INFO - Batch 2 complete - classifications: {'other': 6, 'listicle': 1, 'rant': 1, 'value-add': 2}, avg confidence: 0.66
+2026-01-08 11:44:09,049 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:44:09,049 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:44:27,834 - INFO - LLM API call successful for batch_10_posts - tokens: 6700 (prompt: 4053, completion: 2647)
+2026-01-08 11:44:27,835 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:44:27,835 - INFO - Batch 3 complete - classifications: {'rant': 3, 'listicle': 1, 'other': 3, 'value-add': 3}, avg confidence: 0.72
+2026-01-08 11:44:27,835 - INFO - Classifying batch 4/4 (1 posts)
+2026-01-08 11:44:27,835 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 11:44:31,725 - INFO - LLM API call successful for batch_1_posts - tokens: 2292 (prompt: 1916, completion: 376)
+2026-01-08 11:44:31,726 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 11:44:31,726 - INFO - Batch 4 complete - classifications: {'other': 1}, avg confidence: 0.58
+2026-01-08 11:44:31,732 - INFO - Updated salesforcecareers.json with classifications
+2026-01-08 11:44:31,733 - INFO - salesforcecareers: listicle=2, value-add=5, playbook=1, rant=5
+2026-01-08 11:44:31,735 - INFO - Processing internetmarketing (4 posts)...
+2026-01-08 11:44:31,735 - INFO - Processing 4 posts in 1 batches of up to 10 posts each
+2026-01-08 11:44:31,735 - INFO - Classifying batch 1/1 (4 posts)
+2026-01-08 11:44:31,735 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 11:44:46,877 - INFO - LLM API call successful for batch_4_posts - tokens: 5020 (prompt: 3367, completion: 1653)
+2026-01-08 11:44:46,878 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 11:44:46,878 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'playbook': 1, 'other': 1}, avg confidence: 0.73
+2026-01-08 11:44:46,882 - INFO - Updated internetmarketing.json with classifications
+2026-01-08 11:44:46,882 - INFO - internetmarketing: listicle=2, value-add=0, playbook=1, rant=0
+2026-01-08 11:44:46,885 - INFO - Processing blogging (40 posts)...
+2026-01-08 11:44:46,885 - INFO - Processing 40 posts in 4 batches of up to 10 posts each
+2026-01-08 11:44:46,885 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 11:44:46,885 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:45:09,152 - INFO - LLM API call successful for batch_10_posts - tokens: 8339 (prompt: 5571, completion: 2768)
+2026-01-08 11:45:09,153 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:45:09,153 - INFO - Batch 1 complete - classifications: {'rant': 2, 'value-add': 5, 'listicle': 3}, avg confidence: 0.74
+2026-01-08 11:45:09,153 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 11:45:09,154 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:45:31,266 - INFO - LLM API call successful for batch_10_posts - tokens: 7462 (prompt: 4754, completion: 2708)
+2026-01-08 11:45:31,267 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:45:31,267 - INFO - Batch 2 complete - classifications: {'listicle': 2, 'rant': 1, 'other': 5, 'value-add': 2}, avg confidence: 0.66
+2026-01-08 11:45:31,267 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:45:31,268 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:45:43,608 - INFO - LLM API call successful for batch_10_posts - tokens: 6885 (prompt: 4659, completion: 2226)
+2026-01-08 11:45:43,609 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:45:43,609 - INFO - Batch 3 complete - classifications: {'other': 3, 'listicle': 5, 'value-add': 1, 'rant': 1}, avg confidence: 0.77
+2026-01-08 11:45:43,609 - INFO - Classifying batch 4/4 (10 posts)
+2026-01-08 11:45:43,609 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:46:05,419 - INFO - LLM API call successful for batch_10_posts - tokens: 7761 (prompt: 4956, completion: 2805)
+2026-01-08 11:46:05,420 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:46:05,420 - INFO - Batch 4 complete - classifications: {'listicle': 2, 'other': 4, 'value-add': 4}, avg confidence: 0.66
+2026-01-08 11:46:05,426 - INFO - Updated blogging.json with classifications
+2026-01-08 11:46:05,429 - INFO - blogging: listicle=5, value-add=5, playbook=0, rant=4
+2026-01-08 11:46:05,431 - INFO - Processing freelancewriters (39 posts)...
+2026-01-08 11:46:05,431 - INFO - Processing 39 posts in 4 batches of up to 10 posts each
+2026-01-08 11:46:05,431 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 11:46:05,432 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:46:28,343 - INFO - LLM API call successful for batch_10_posts - tokens: 7356 (prompt: 4495, completion: 2861)
+2026-01-08 11:46:28,343 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:46:28,343 - INFO - Batch 1 complete - classifications: {'rant': 4, 'listicle': 2, 'other': 3, 'playbook': 1}, avg confidence: 0.68
+2026-01-08 11:46:28,344 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 11:46:28,344 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:46:47,184 - INFO - LLM API call successful for batch_10_posts - tokens: 7103 (prompt: 4946, completion: 2157)
+2026-01-08 11:46:47,185 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:46:47,185 - INFO - Batch 2 complete - classifications: {'rant': 7, 'other': 1, 'value-add': 1, 'playbook': 1}, avg confidence: 0.70
+2026-01-08 11:46:47,185 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:46:47,186 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:47:09,313 - INFO - LLM API call successful for batch_10_posts - tokens: 7180 (prompt: 4255, completion: 2925)
+2026-01-08 11:47:09,314 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:47:09,314 - INFO - Batch 3 complete - classifications: {'rant': 8, 'value-add': 2}, avg confidence: 0.72
+2026-01-08 11:47:09,314 - INFO - Classifying batch 4/4 (9 posts)
+2026-01-08 11:47:09,315 - INFO - Starting LLM classification for batch_9_posts
+2026-01-08 11:47:36,089 - INFO - LLM API call successful for batch_9_posts - tokens: 8142 (prompt: 4729, completion: 3413)
+2026-01-08 11:47:36,090 - INFO - Successfully classified batch_9_posts - got 9 valid classifications
+2026-01-08 11:47:36,090 - INFO - Batch 4 complete - classifications: {'rant': 3, 'other': 2, 'listicle': 1, 'value-add': 3}, avg confidence: 0.70
+2026-01-08 11:47:36,095 - INFO - Updated freelancewriters.json with classifications
+2026-01-08 11:47:36,096 - INFO - freelancewriters: listicle=3, value-add=5, playbook=2, rant=5
+2026-01-08 11:47:36,098 - WARNING - No posts in agencysquad.json
+2026-01-08 11:47:36,099 - INFO - Processing graphic_design (3 posts)...
+2026-01-08 11:47:36,099 - INFO - Processing 3 posts in 1 batches of up to 10 posts each
+2026-01-08 11:47:36,099 - INFO - Classifying batch 1/1 (3 posts)
+2026-01-08 11:47:36,099 - INFO - Starting LLM classification for batch_3_posts
+2026-01-08 11:47:45,051 - INFO - LLM API call successful for batch_3_posts - tokens: 3391 (prompt: 2330, completion: 1061)
+2026-01-08 11:47:45,051 - INFO - Successfully classified batch_3_posts - got 3 valid classifications
+2026-01-08 11:47:45,052 - INFO - Batch 1 complete - classifications: {'value-add': 2, 'playbook': 1}, avg confidence: 0.77
+2026-01-08 11:47:45,053 - INFO - Updated graphic_design.json with classifications
+2026-01-08 11:47:45,054 - INFO - graphic_design: listicle=0, value-add=2, playbook=1, rant=0
+2026-01-08 11:47:45,055 - WARNING - No posts in business.json
+2026-01-08 11:47:45,057 - INFO - Processing amazonfba (54 posts)...
+2026-01-08 11:47:45,057 - INFO - Processing 54 posts in 6 batches of up to 10 posts each
+2026-01-08 11:47:45,057 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 11:47:45,057 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:48:05,227 - INFO - LLM API call successful for batch_10_posts - tokens: 7481 (prompt: 5061, completion: 2420)
+2026-01-08 11:48:05,228 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:48:05,228 - INFO - Batch 1 complete - classifications: {'value-add': 5, 'playbook': 4, 'listicle': 1}, avg confidence: 0.70
+2026-01-08 11:48:05,228 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 11:48:05,228 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:48:20,176 - INFO - LLM API call successful for batch_10_posts - tokens: 7586 (prompt: 4808, completion: 2778)
+2026-01-08 11:48:20,178 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:48:20,178 - INFO - Batch 2 complete - classifications: {'value-add': 5, 'playbook': 4, 'other': 1}, avg confidence: 0.75
+2026-01-08 11:48:20,178 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 11:48:20,178 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:48:39,005 - INFO - LLM API call successful for batch_10_posts - tokens: 6645 (prompt: 4101, completion: 2544)
+2026-01-08 11:48:39,006 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:48:39,006 - INFO - Batch 3 complete - classifications: {'other': 2, 'value-add': 6, 'listicle': 1, 'rant': 1}, avg confidence: 0.68
+2026-01-08 11:48:39,007 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 11:48:39,007 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:49:05,587 - INFO - LLM API call successful for batch_10_posts - tokens: 8292 (prompt: 4641, completion: 3651)
+2026-01-08 11:49:05,588 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:49:05,589 - INFO - Batch 4 complete - classifications: {'other': 6, 'listicle': 1, 'value-add': 2, 'playbook': 1}, avg confidence: 0.63
+2026-01-08 11:49:05,589 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 11:49:05,589 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:49:26,234 - INFO - LLM API call successful for batch_10_posts - tokens: 7688 (prompt: 5081, completion: 2607)
+2026-01-08 11:49:26,234 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:49:26,234 - INFO - Batch 5 complete - classifications: {'playbook': 2, 'other': 4, 'value-add': 2, 'listicle': 2}, avg confidence: 0.68
+2026-01-08 11:49:26,234 - INFO - Classifying batch 6/6 (4 posts)
+2026-01-08 11:49:26,234 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 11:49:34,283 - INFO - LLM API call successful for batch_4_posts - tokens: 4626 (prompt: 3484, completion: 1142)
+2026-01-08 11:49:34,284 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 11:49:34,284 - INFO - Batch 6 complete - classifications: {'listicle': 1, 'playbook': 1, 'other': 1, 'value-add': 1}, avg confidence: 0.73
+2026-01-08 11:49:34,291 - INFO - Updated amazonfba.json with classifications
+2026-01-08 11:49:34,292 - INFO - amazonfba: listicle=5, value-add=5, playbook=5, rant=1
+2026-01-08 11:49:34,296 - INFO - Processing adsense (51 posts)...
+2026-01-08 11:49:34,296 - INFO - Processing 51 posts in 6 batches of up to 10 posts each
+2026-01-08 11:49:34,296 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 11:49:34,296 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:49:48,343 - INFO - LLM API call successful for batch_10_posts - tokens: 6636 (prompt: 3889, completion: 2747)
+2026-01-08 11:49:48,344 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:49:48,344 - INFO - Batch 1 complete - classifications: {'playbook': 3, 'listicle': 1, 'rant': 4, 'other': 1, 'value-add': 1}, avg confidence: 0.71
+2026-01-08 11:49:48,344 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 11:49:48,344 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:50:03,437 - INFO - LLM API call successful for batch_10_posts - tokens: 6360 (prompt: 4252, completion: 2108)
+2026-01-08 11:50:03,439 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:50:03,439 - INFO - Batch 2 complete - classifications: {'other': 3, 'value-add': 3, 'playbook': 3, 'rant': 1}, avg confidence: 0.73
+2026-01-08 11:50:03,439 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 11:50:03,439 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:50:21,930 - INFO - LLM API call successful for batch_10_posts - tokens: 6529 (prompt: 4160, completion: 2369)
+2026-01-08 11:50:21,931 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:50:21,931 - INFO - Batch 3 complete - classifications: {'other': 5, 'value-add': 4, 'rant': 1}, avg confidence: 0.68
+2026-01-08 11:50:21,931 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 11:50:21,931 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:50:41,586 - INFO - LLM API call successful for batch_10_posts - tokens: 6854 (prompt: 4302, completion: 2552)
+2026-01-08 11:50:41,587 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:50:41,587 - INFO - Batch 4 complete - classifications: {'other': 3, 'playbook': 3, 'value-add': 4}, avg confidence: 0.70
+2026-01-08 11:50:41,587 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 11:50:41,588 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:51:04,475 - INFO - LLM API call successful for batch_10_posts - tokens: 7410 (prompt: 4484, completion: 2926)
+2026-01-08 11:51:04,476 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:51:04,477 - INFO - Batch 5 complete - classifications: {'rant': 1, 'other': 6, 'value-add': 1, 'listicle': 1, 'playbook': 1}, avg confidence: 0.66
+2026-01-08 11:51:04,477 - INFO - Classifying batch 6/6 (1 posts)
+2026-01-08 11:51:04,477 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 11:51:09,920 - INFO - LLM API call successful for batch_1_posts - tokens: 2671 (prompt: 2220, completion: 451)
+2026-01-08 11:51:09,921 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 11:51:09,921 - INFO - Batch 6 complete - classifications: {'value-add': 1}, avg confidence: 0.72
+2026-01-08 11:51:09,929 - INFO - Updated adsense.json with classifications
+2026-01-08 11:51:09,930 - INFO - adsense: listicle=2, value-add=5, playbook=5, rant=5
+2026-01-08 11:51:09,933 - INFO - Processing educatedinvesting (23 posts)...
+2026-01-08 11:51:09,933 - INFO - Processing 23 posts in 3 batches of up to 10 posts each
+2026-01-08 11:51:09,933 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 11:51:09,933 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:51:30,330 - INFO - LLM API call successful for batch_10_posts - tokens: 5357 (prompt: 3323, completion: 2034)
+2026-01-08 11:51:30,332 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:51:30,332 - INFO - Batch 1 complete - classifications: {'rant': 10}, avg confidence: 0.82
+2026-01-08 11:51:30,332 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 11:51:30,332 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:51:47,659 - INFO - LLM API call successful for batch_10_posts - tokens: 5567 (prompt: 3606, completion: 1961)
+2026-01-08 11:51:47,660 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:51:47,660 - INFO - Batch 2 complete - classifications: {'rant': 7, 'value-add': 3}, avg confidence: 0.73
+2026-01-08 11:51:47,660 - INFO - Classifying batch 3/3 (3 posts)
+2026-01-08 11:51:47,660 - INFO - Starting LLM classification for batch_3_posts
+2026-01-08 11:52:04,002 - INFO - LLM API call successful for batch_3_posts - tokens: 4460 (prompt: 2317, completion: 2143)
+2026-01-08 11:52:04,003 - INFO - Successfully classified batch_3_posts - got 3 valid classifications
+2026-01-08 11:52:04,003 - INFO - Batch 3 complete - classifications: {'rant': 1, 'value-add': 1, 'listicle': 1}, avg confidence: 0.74
+2026-01-08 11:52:04,009 - INFO - Updated educatedinvesting.json with classifications
+2026-01-08 11:52:04,010 - INFO - educatedinvesting: listicle=1, value-add=4, playbook=0, rant=5
+2026-01-08 11:52:04,012 - INFO - Processing copywriting (31 posts)...
+2026-01-08 11:52:04,012 - INFO - Processing 31 posts in 4 batches of up to 10 posts each
+2026-01-08 11:52:04,012 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 11:52:04,013 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:52:23,128 - INFO - LLM API call successful for batch_10_posts - tokens: 7608 (prompt: 5532, completion: 2076)
+2026-01-08 11:52:23,129 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:52:23,129 - INFO - Batch 1 complete - classifications: {'rant': 4, 'value-add': 4, 'listicle': 1, 'playbook': 1}, avg confidence: 0.69
+2026-01-08 11:52:23,129 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 11:52:23,129 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:52:47,478 - INFO - LLM API call successful for batch_10_posts - tokens: 7942 (prompt: 4844, completion: 3098)
+2026-01-08 11:52:47,479 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:52:47,479 - INFO - Batch 2 complete - classifications: {'rant': 3, 'value-add': 5, 'other': 1, 'listicle': 1}, avg confidence: 0.71
+2026-01-08 11:52:47,479 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:52:47,479 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:53:05,176 - INFO - LLM API call successful for batch_10_posts - tokens: 7032 (prompt: 4735, completion: 2297)
+2026-01-08 11:53:05,177 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:53:05,177 - INFO - Batch 3 complete - classifications: {'rant': 3, 'playbook': 2, 'value-add': 3, 'listicle': 1, 'other': 1}, avg confidence: 0.74
+2026-01-08 11:53:05,177 - INFO - Classifying batch 4/4 (1 posts)
+2026-01-08 11:53:05,177 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 11:53:09,408 - INFO - LLM API call successful for batch_1_posts - tokens: 2387 (prompt: 2013, completion: 374)
+2026-01-08 11:53:09,409 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 11:53:09,409 - INFO - Batch 4 complete - classifications: {'rant': 1}, avg confidence: 0.86
+2026-01-08 11:53:09,413 - INFO - Updated copywriting.json with classifications
+2026-01-08 11:53:09,415 - INFO - copywriting: listicle=3, value-add=5, playbook=3, rant=5
+2026-01-08 11:53:09,417 - INFO - Processing prowordpress (32 posts)...
+2026-01-08 11:53:09,417 - INFO - Processing 32 posts in 4 batches of up to 10 posts each
+2026-01-08 11:53:09,417 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 11:53:09,417 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:53:29,519 - INFO - LLM API call successful for batch_10_posts - tokens: 6674 (prompt: 4368, completion: 2306)
+2026-01-08 11:53:29,520 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:53:29,520 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'rant': 2, 'other': 4}, avg confidence: 0.69
+2026-01-08 11:53:29,521 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 11:53:29,521 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:53:54,508 - INFO - LLM API call successful for batch_10_posts - tokens: 7261 (prompt: 4256, completion: 3005)
+2026-01-08 11:53:54,509 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:53:54,509 - INFO - Batch 2 complete - classifications: {'value-add': 4, 'rant': 2, 'other': 4}, avg confidence: 0.70
+2026-01-08 11:53:54,509 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 11:53:54,510 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:54:15,154 - INFO - LLM API call successful for batch_10_posts - tokens: 6237 (prompt: 3690, completion: 2547)
+2026-01-08 11:54:15,156 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:54:15,156 - INFO - Batch 3 complete - classifications: {'other': 3, 'value-add': 4, 'rant': 3}, avg confidence: 0.63
+2026-01-08 11:54:15,156 - INFO - Classifying batch 4/4 (2 posts)
+2026-01-08 11:54:15,156 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 11:54:20,632 - INFO - LLM API call successful for batch_2_posts - tokens: 3039 (prompt: 2364, completion: 675)
+2026-01-08 11:54:20,632 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 11:54:20,632 - INFO - Batch 4 complete - classifications: {'value-add': 1, 'rant': 1}, avg confidence: 0.80
+2026-01-08 11:54:20,636 - INFO - Updated prowordpress.json with classifications
+2026-01-08 11:54:20,637 - INFO - prowordpress: listicle=0, value-add=5, playbook=0, rant=5
+2026-01-08 11:54:20,638 - INFO - Processing softwareinc (17 posts)...
+2026-01-08 11:54:20,638 - INFO - Processing 17 posts in 2 batches of up to 10 posts each
+2026-01-08 11:54:20,638 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 11:54:20,638 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:54:41,161 - INFO - LLM API call successful for batch_10_posts - tokens: 8186 (prompt: 5654, completion: 2532)
+2026-01-08 11:54:41,162 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:54:41,162 - INFO - Batch 1 complete - classifications: {'listicle': 9, 'value-add': 1}, avg confidence: 0.82
+2026-01-08 11:54:41,162 - INFO - Classifying batch 2/2 (7 posts)
+2026-01-08 11:54:41,162 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 11:54:54,740 - INFO - LLM API call successful for batch_7_posts - tokens: 6039 (prompt: 4314, completion: 1725)
+2026-01-08 11:54:54,740 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 11:54:54,740 - INFO - Batch 2 complete - classifications: {'other': 3, 'listicle': 4}, avg confidence: 0.73
+2026-01-08 11:54:54,743 - INFO - Updated softwareinc.json with classifications
+2026-01-08 11:54:54,743 - INFO - softwareinc: listicle=5, value-add=1, playbook=0, rant=0
+2026-01-08 11:54:54,745 - INFO - Processing smallbusiness (58 posts)...
+2026-01-08 11:54:54,745 - INFO - Processing 58 posts in 6 batches of up to 10 posts each
+2026-01-08 11:54:54,745 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 11:54:54,745 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:55:20,980 - INFO - LLM API call successful for batch_10_posts - tokens: 6900 (prompt: 4138, completion: 2762)
+2026-01-08 11:55:20,980 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:55:20,980 - INFO - Batch 1 complete - classifications: {'other': 4, 'value-add': 5, 'rant': 1}, avg confidence: 0.61
+2026-01-08 11:55:20,980 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 11:55:20,980 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:55:39,441 - INFO - LLM API call successful for batch_10_posts - tokens: 6846 (prompt: 4423, completion: 2423)
+2026-01-08 11:55:39,443 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:55:39,443 - INFO - Batch 2 complete - classifications: {'rant': 1, 'playbook': 1, 'value-add': 3, 'other': 5}, avg confidence: 0.61
+2026-01-08 11:55:39,443 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 11:55:39,443 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 11:55:58,736 - INFO - LLM API call successful for batch_10_posts - tokens: 7012 (prompt: 4548, completion: 2464)
+2026-01-08 11:55:58,737 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 11:55:58,737 - INFO - Batch 3 complete - classifications: {'rant': 2, 'other': 6, 'value-add': 2}, avg confidence: 0.60
+2026-01-08 11:55:58,737 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 11:55:58,738 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:00:16,354 - INFO - LLM API call successful for batch_10_posts - tokens: 7717 (prompt: 4172, completion: 3545)
+2026-01-08 12:00:16,355 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:00:16,355 - INFO - Batch 4 complete - classifications: {'other': 3, 'value-add': 4, 'playbook': 1, 'rant': 2}, avg confidence: 0.65
+2026-01-08 12:00:16,355 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 12:00:16,355 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:00:39,415 - INFO - LLM API call successful for batch_10_posts - tokens: 6646 (prompt: 4180, completion: 2466)
+2026-01-08 12:00:39,415 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:00:39,415 - INFO - Batch 5 complete - classifications: {'other': 6, 'rant': 3, 'value-add': 1}, avg confidence: 0.64
+2026-01-08 12:00:39,416 - INFO - Classifying batch 6/6 (8 posts)
+2026-01-08 12:00:39,416 - INFO - Starting LLM classification for batch_8_posts
+2026-01-08 12:01:05,728 - INFO - LLM API call successful for batch_8_posts - tokens: 6397 (prompt: 3795, completion: 2602)
+2026-01-08 12:01:05,728 - INFO - Successfully classified batch_8_posts - got 8 valid classifications
+2026-01-08 12:01:05,729 - INFO - Batch 6 complete - classifications: {'rant': 3, 'other': 2, 'value-add': 1, 'playbook': 1, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 12:01:05,735 - INFO - Updated smallbusiness.json with classifications
+2026-01-08 12:01:05,736 - INFO - smallbusiness: listicle=1, value-add=5, playbook=3, rant=5
+2026-01-08 12:01:05,738 - INFO - Processing forhire (30 posts)...
+2026-01-08 12:01:05,739 - INFO - Processing 30 posts in 3 batches of up to 10 posts each
+2026-01-08 12:01:05,739 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 12:01:05,739 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:01:17,688 - INFO - LLM API call successful for batch_10_posts - tokens: 4791 (prompt: 3659, completion: 1132)
+2026-01-08 12:01:17,689 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:01:17,689 - INFO - Batch 1 complete - classifications: {'other': 10}, avg confidence: 0.62
+2026-01-08 12:01:17,689 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 12:01:17,690 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:01:33,943 - INFO - LLM API call successful for batch_10_posts - tokens: 5644 (prompt: 3805, completion: 1839)
+2026-01-08 12:01:33,943 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:01:33,943 - INFO - Batch 2 complete - classifications: {'other': 7, 'value-add': 3}, avg confidence: 0.67
+2026-01-08 12:01:33,944 - INFO - Classifying batch 3/3 (10 posts)
+2026-01-08 12:01:33,944 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:01:48,209 - INFO - LLM API call successful for batch_10_posts - tokens: 5548 (prompt: 3788, completion: 1760)
+2026-01-08 12:01:48,210 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:01:48,210 - INFO - Batch 3 complete - classifications: {'other': 9, 'rant': 1}, avg confidence: 0.61
+2026-01-08 12:01:48,216 - INFO - Updated forhire.json with classifications
+2026-01-08 12:01:48,217 - INFO - forhire: listicle=0, value-add=3, playbook=0, rant=1
+2026-01-08 12:01:48,221 - INFO - Processing wordpress (44 posts)...
+2026-01-08 12:01:48,221 - INFO - Processing 44 posts in 5 batches of up to 10 posts each
+2026-01-08 12:01:48,221 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:01:48,221 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:02:16,362 - INFO - LLM API call successful for batch_10_posts - tokens: 8537 (prompt: 4991, completion: 3546)
+2026-01-08 12:02:16,363 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:02:16,363 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'other': 3, 'rant': 3, 'playbook': 1, 'value-add': 1}, avg confidence: 0.66
+2026-01-08 12:02:16,363 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:02:16,363 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:02:45,519 - INFO - LLM API call successful for batch_10_posts - tokens: 7069 (prompt: 4092, completion: 2977)
+2026-01-08 12:02:45,520 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:02:45,520 - INFO - Batch 2 complete - classifications: {'rant': 4, 'other': 2, 'value-add': 3, 'listicle': 1}, avg confidence: 0.67
+2026-01-08 12:02:45,520 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:02:45,520 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:03:21,385 - INFO - LLM API call successful for batch_10_posts - tokens: 8496 (prompt: 4535, completion: 3961)
+2026-01-08 12:03:21,385 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:03:21,385 - INFO - Batch 3 complete - classifications: {'rant': 5, 'value-add': 5}, avg confidence: 0.66
+2026-01-08 12:03:21,386 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:03:21,386 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:03:48,575 - INFO - LLM API call successful for batch_10_posts - tokens: 8477 (prompt: 5366, completion: 3111)
+2026-01-08 12:03:48,576 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:03:48,578 - INFO - Batch 4 complete - classifications: {'listicle': 1, 'playbook': 2, 'rant': 3, 'value-add': 4}, avg confidence: 0.77
+2026-01-08 12:03:48,579 - INFO - Classifying batch 5/5 (4 posts)
+2026-01-08 12:03:48,579 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 12:04:00,495 - INFO - LLM API call successful for batch_4_posts - tokens: 4114 (prompt: 2650, completion: 1464)
+2026-01-08 12:04:00,495 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 12:04:00,495 - INFO - Batch 5 complete - classifications: {'other': 2, 'rant': 2}, avg confidence: 0.70
+2026-01-08 12:04:00,503 - INFO - Updated wordpress.json with classifications
+2026-01-08 12:04:00,511 - INFO - wordpress: listicle=4, value-add=5, playbook=3, rant=5
+2026-01-08 12:04:00,512 - INFO - Processing moneysaving (18 posts)...
+2026-01-08 12:04:00,512 - INFO - Processing 18 posts in 2 batches of up to 10 posts each
+2026-01-08 12:04:00,512 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:04:00,513 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:04:25,771 - INFO - LLM API call successful for batch_10_posts - tokens: 8349 (prompt: 5527, completion: 2822)
+2026-01-08 12:04:25,772 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:04:25,772 - INFO - Batch 1 complete - classifications: {'other': 4, 'listicle': 2, 'value-add': 2, 'playbook': 2}, avg confidence: 0.70
+2026-01-08 12:04:25,772 - INFO - Classifying batch 2/2 (8 posts)
+2026-01-08 12:04:25,772 - INFO - Starting LLM classification for batch_8_posts
+2026-01-08 12:04:43,426 - INFO - LLM API call successful for batch_8_posts - tokens: 6219 (prompt: 3838, completion: 2381)
+2026-01-08 12:04:43,426 - INFO - Successfully classified batch_8_posts - got 8 valid classifications
+2026-01-08 12:04:43,426 - INFO - Batch 2 complete - classifications: {'listicle': 1, 'other': 6, 'rant': 1}, avg confidence: 0.67
+2026-01-08 12:04:43,431 - INFO - Updated moneysaving.json with classifications
+2026-01-08 12:04:43,432 - INFO - moneysaving: listicle=3, value-add=2, playbook=2, rant=1
+2026-01-08 12:04:43,437 - INFO - Processing growmybusiness (51 posts)...
+2026-01-08 12:04:43,437 - INFO - Processing 51 posts in 6 batches of up to 10 posts each
+2026-01-08 12:04:43,438 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 12:04:43,438 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:05:09,214 - INFO - LLM API call successful for batch_10_posts - tokens: 6929 (prompt: 3401, completion: 3528)
+2026-01-08 12:05:09,215 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:05:09,215 - INFO - Batch 1 complete - classifications: {'other': 5, 'value-add': 5}, avg confidence: 0.59
+2026-01-08 12:05:09,215 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 12:05:09,215 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:05:31,826 - INFO - LLM API call successful for batch_10_posts - tokens: 6985 (prompt: 4344, completion: 2641)
+2026-01-08 12:05:31,827 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:05:31,828 - INFO - Batch 2 complete - classifications: {'value-add': 7, 'other': 2, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 12:05:31,828 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 12:05:31,828 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:06:18,856 - INFO - LLM API call successful for batch_10_posts - tokens: 6694 (prompt: 4340, completion: 2354)
+2026-01-08 12:06:18,857 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:06:18,857 - INFO - Batch 3 complete - classifications: {'value-add': 5, 'other': 4, 'rant': 1}, avg confidence: 0.71
+2026-01-08 12:06:18,857 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 12:06:18,857 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:06:41,796 - INFO - LLM API call successful for batch_10_posts - tokens: 7807 (prompt: 4797, completion: 3010)
+2026-01-08 12:06:41,798 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:06:41,798 - INFO - Batch 4 complete - classifications: {'playbook': 2, 'other': 7, 'value-add': 1}, avg confidence: 0.59
+2026-01-08 12:06:41,798 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 12:06:41,798 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:06:57,421 - INFO - LLM API call successful for batch_10_posts - tokens: 6536 (prompt: 4386, completion: 2150)
+2026-01-08 12:06:57,422 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:06:57,424 - INFO - Batch 5 complete - classifications: {'listicle': 2, 'value-add': 4, 'other': 4}, avg confidence: 0.68
+2026-01-08 12:06:57,425 - INFO - Classifying batch 6/6 (1 posts)
+2026-01-08 12:06:57,425 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 12:07:01,899 - INFO - LLM API call successful for batch_1_posts - tokens: 2473 (prompt: 2030, completion: 443)
+2026-01-08 12:07:01,899 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 12:07:01,899 - INFO - Batch 6 complete - classifications: {'other': 1}, avg confidence: 0.62
+2026-01-08 12:07:01,906 - INFO - Updated growmybusiness.json with classifications
+2026-01-08 12:07:01,907 - INFO - growmybusiness: listicle=3, value-add=5, playbook=2, rant=1
+2026-01-08 12:07:01,916 - INFO - Processing marketingautomation (66 posts)...
+2026-01-08 12:07:01,916 - INFO - Processing 66 posts in 7 batches of up to 10 posts each
+2026-01-08 12:07:01,916 - INFO - Classifying batch 1/7 (10 posts)
+2026-01-08 12:07:01,917 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:07:19,359 - INFO - LLM API call successful for batch_10_posts - tokens: 6912 (prompt: 4734, completion: 2178)
+2026-01-08 12:07:19,360 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:07:19,360 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'listicle': 2, 'playbook': 1, 'other': 3}, avg confidence: 0.72
+2026-01-08 12:07:19,361 - INFO - Classifying batch 2/7 (10 posts)
+2026-01-08 12:07:19,361 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:07:34,374 - INFO - LLM API call successful for batch_10_posts - tokens: 7671 (prompt: 5640, completion: 2031)
+2026-01-08 12:07:34,375 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:07:34,375 - INFO - Batch 2 complete - classifications: {'other': 2, 'playbook': 4, 'value-add': 2, 'listicle': 2}, avg confidence: 0.77
+2026-01-08 12:07:34,375 - INFO - Classifying batch 3/7 (10 posts)
+2026-01-08 12:07:34,375 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:07:57,585 - INFO - LLM API call successful for batch_10_posts - tokens: 8011 (prompt: 4943, completion: 3068)
+2026-01-08 12:07:57,586 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:07:57,586 - INFO - Batch 3 complete - classifications: {'listicle': 1, 'other': 3, 'playbook': 3, 'value-add': 3}, avg confidence: 0.66
+2026-01-08 12:07:57,586 - INFO - Classifying batch 4/7 (10 posts)
+2026-01-08 12:07:57,586 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:08:19,170 - INFO - LLM API call successful for batch_10_posts - tokens: 8337 (prompt: 5724, completion: 2613)
+2026-01-08 12:08:19,172 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:08:19,172 - INFO - Batch 4 complete - classifications: {'value-add': 3, 'playbook': 5, 'other': 2}, avg confidence: 0.73
+2026-01-08 12:08:19,172 - INFO - Classifying batch 5/7 (10 posts)
+2026-01-08 12:08:19,172 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:08:59,844 - INFO - LLM API call successful for batch_10_posts - tokens: 9213 (prompt: 5350, completion: 3863)
+2026-01-08 12:08:59,846 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:08:59,846 - INFO - Batch 5 complete - classifications: {'value-add': 3, 'playbook': 5, 'other': 2}, avg confidence: 0.75
+2026-01-08 12:08:59,846 - INFO - Classifying batch 6/7 (10 posts)
+2026-01-08 12:08:59,846 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:09:23,313 - INFO - LLM API call successful for batch_10_posts - tokens: 6930 (prompt: 4458, completion: 2472)
+2026-01-08 12:09:23,314 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:09:23,314 - INFO - Batch 6 complete - classifications: {'value-add': 3, 'other': 5, 'listicle': 1, 'playbook': 1}, avg confidence: 0.65
+2026-01-08 12:09:23,314 - INFO - Classifying batch 7/7 (6 posts)
+2026-01-08 12:09:23,314 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 12:09:46,354 - INFO - LLM API call successful for batch_6_posts - tokens: 5512 (prompt: 3254, completion: 2258)
+2026-01-08 12:09:46,355 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 12:09:46,356 - INFO - Batch 7 complete - classifications: {'value-add': 3, 'rant': 1, 'listicle': 1, 'other': 1}, avg confidence: 0.69
+2026-01-08 12:09:46,363 - INFO - Updated marketingautomation.json with classifications
+2026-01-08 12:09:46,365 - INFO - marketingautomation: listicle=5, value-add=5, playbook=5, rant=1
+2026-01-08 12:09:46,367 - INFO - Processing marketing (12 posts)...
+2026-01-08 12:09:46,367 - INFO - Processing 12 posts in 2 batches of up to 10 posts each
+2026-01-08 12:09:46,367 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:09:46,367 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:10:13,692 - INFO - LLM API call successful for batch_10_posts - tokens: 7098 (prompt: 4739, completion: 2359)
+2026-01-08 12:10:13,693 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:10:13,694 - INFO - Batch 1 complete - classifications: {'value-add': 5, 'rant': 3, 'other': 1, 'playbook': 1}, avg confidence: 0.70
+2026-01-08 12:10:13,694 - INFO - Classifying batch 2/2 (2 posts)
+2026-01-08 12:10:13,694 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:10:21,862 - INFO - LLM API call successful for batch_2_posts - tokens: 3044 (prompt: 2370, completion: 674)
+2026-01-08 12:10:21,862 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:10:21,862 - INFO - Batch 2 complete - classifications: {'listicle': 1, 'rant': 1}, avg confidence: 0.83
+2026-01-08 12:10:21,863 - INFO - Updated marketing.json with classifications
+2026-01-08 12:10:21,864 - INFO - marketing: listicle=1, value-add=5, playbook=1, rant=4
+2026-01-08 12:10:21,864 - INFO - Processing datahoarder (12 posts)...
+2026-01-08 12:10:21,864 - INFO - Processing 12 posts in 2 batches of up to 10 posts each
+2026-01-08 12:10:21,864 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:10:21,864 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:10:51,794 - INFO - LLM API call successful for batch_10_posts - tokens: 7850 (prompt: 4533, completion: 3317)
+2026-01-08 12:10:51,795 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:10:51,796 - INFO - Batch 1 complete - classifications: {'other': 4, 'value-add': 3, 'rant': 3}, avg confidence: 0.56
+2026-01-08 12:10:51,796 - INFO - Classifying batch 2/2 (2 posts)
+2026-01-08 12:10:51,796 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:11:01,814 - INFO - LLM API call successful for batch_2_posts - tokens: 3230 (prompt: 2227, completion: 1003)
+2026-01-08 12:11:01,814 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:11:01,815 - INFO - Batch 2 complete - classifications: {'value-add': 1, 'playbook': 1}, avg confidence: 0.70
+2026-01-08 12:11:01,818 - INFO - Updated datahoarder.json with classifications
+2026-01-08 12:11:01,819 - INFO - datahoarder: listicle=0, value-add=4, playbook=1, rant=3
+2026-01-08 12:11:01,820 - INFO - Processing onlineretail (3 posts)...
+2026-01-08 12:11:01,820 - INFO - Processing 3 posts in 1 batches of up to 10 posts each
+2026-01-08 12:11:01,820 - INFO - Classifying batch 1/1 (3 posts)
+2026-01-08 12:11:01,820 - INFO - Starting LLM classification for batch_3_posts
+2026-01-08 12:11:11,416 - INFO - LLM API call successful for batch_3_posts - tokens: 3265 (prompt: 2275, completion: 990)
+2026-01-08 12:11:11,416 - INFO - Successfully classified batch_3_posts - got 3 valid classifications
+2026-01-08 12:11:11,416 - INFO - Batch 1 complete - classifications: {'value-add': 3}, avg confidence: 0.71
+2026-01-08 12:11:11,418 - INFO - Updated onlineretail.json with classifications
+2026-01-08 12:11:11,418 - INFO - onlineretail: listicle=0, value-add=3, playbook=0, rant=0
+2026-01-08 12:11:11,420 - INFO - Processing appdevelopers (42 posts)...
+2026-01-08 12:11:11,420 - INFO - Processing 42 posts in 5 batches of up to 10 posts each
+2026-01-08 12:11:11,420 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:11:11,420 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:11:36,107 - INFO - LLM API call successful for batch_10_posts - tokens: 6475 (prompt: 3873, completion: 2602)
+2026-01-08 12:11:36,108 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:11:36,109 - INFO - Batch 1 complete - classifications: {'other': 8, 'playbook': 1, 'rant': 1}, avg confidence: 0.62
+2026-01-08 12:11:36,109 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:11:36,109 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:11:53,825 - INFO - LLM API call successful for batch_10_posts - tokens: 6478 (prompt: 4305, completion: 2173)
+2026-01-08 12:11:53,826 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:11:53,826 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'other': 7, 'rant': 1}, avg confidence: 0.65
+2026-01-08 12:11:53,826 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:11:53,826 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:12:11,368 - INFO - LLM API call successful for batch_10_posts - tokens: 6028 (prompt: 3907, completion: 2121)
+2026-01-08 12:12:11,369 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:12:11,370 - INFO - Batch 3 complete - classifications: {'other': 10}, avg confidence: 0.77
+2026-01-08 12:12:11,370 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:12:11,370 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:12:38,228 - INFO - LLM API call successful for batch_10_posts - tokens: 6744 (prompt: 3377, completion: 3367)
+2026-01-08 12:12:38,229 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:12:38,229 - INFO - Batch 4 complete - classifications: {'rant': 1, 'other': 9}, avg confidence: 0.61
+2026-01-08 12:12:38,230 - INFO - Classifying batch 5/5 (2 posts)
+2026-01-08 12:12:38,230 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:12:43,868 - INFO - LLM API call successful for batch_2_posts - tokens: 2832 (prompt: 2218, completion: 614)
+2026-01-08 12:12:43,868 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:12:43,869 - INFO - Batch 5 complete - classifications: {'other': 2}, avg confidence: 0.62
+2026-01-08 12:12:43,878 - INFO - Updated appdevelopers.json with classifications
+2026-01-08 12:12:43,879 - INFO - appdevelopers: listicle=0, value-add=2, playbook=1, rant=3
+2026-01-08 12:12:43,882 - INFO - Processing webdevelopment (56 posts)...
+2026-01-08 12:12:43,882 - INFO - Processing 56 posts in 6 batches of up to 10 posts each
+2026-01-08 12:12:43,882 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 12:12:43,882 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:13:03,127 - INFO - LLM API call successful for batch_10_posts - tokens: 6201 (prompt: 3968, completion: 2233)
+2026-01-08 12:13:03,128 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:13:03,128 - INFO - Batch 1 complete - classifications: {'rant': 4, 'value-add': 4, 'other': 2}, avg confidence: 0.69
+2026-01-08 12:13:03,129 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 12:13:03,129 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:13:31,652 - INFO - LLM API call successful for batch_10_posts - tokens: 6819 (prompt: 3967, completion: 2852)
+2026-01-08 12:13:31,653 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:13:31,654 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'rant': 3, 'other': 5}, avg confidence: 0.65
+2026-01-08 12:13:31,654 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 12:13:31,654 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:13:51,014 - INFO - LLM API call successful for batch_10_posts - tokens: 6512 (prompt: 4208, completion: 2304)
+2026-01-08 12:13:51,015 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:13:51,015 - INFO - Batch 3 complete - classifications: {'other': 5, 'value-add': 2, 'listicle': 2, 'playbook': 1}, avg confidence: 0.67
+2026-01-08 12:13:51,015 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 12:13:51,016 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:14:10,178 - INFO - LLM API call successful for batch_10_posts - tokens: 5991 (prompt: 3700, completion: 2291)
+2026-01-08 12:14:10,178 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:14:10,179 - INFO - Batch 4 complete - classifications: {'other': 8, 'value-add': 1, 'rant': 1}, avg confidence: 0.61
+2026-01-08 12:14:10,179 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 12:14:10,179 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:14:40,797 - INFO - LLM API call successful for batch_10_posts - tokens: 6855 (prompt: 4117, completion: 2738)
+2026-01-08 12:14:40,798 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:14:40,799 - INFO - Batch 5 complete - classifications: {'other': 6, 'rant': 1, 'listicle': 2, 'value-add': 1}, avg confidence: 0.60
+2026-01-08 12:14:40,799 - INFO - Classifying batch 6/6 (6 posts)
+2026-01-08 12:14:40,799 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 12:14:59,274 - INFO - LLM API call successful for batch_6_posts - tokens: 4915 (prompt: 2856, completion: 2059)
+2026-01-08 12:14:59,276 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 12:14:59,276 - INFO - Batch 6 complete - classifications: {'other': 6}, avg confidence: 0.59
+2026-01-08 12:14:59,291 - INFO - Updated webdevelopment.json with classifications
+2026-01-08 12:14:59,293 - INFO - webdevelopment: listicle=4, value-add=5, playbook=1, rant=5
+2026-01-08 12:14:59,296 - INFO - Processing webhosting (34 posts)...
+2026-01-08 12:14:59,296 - INFO - Processing 34 posts in 4 batches of up to 10 posts each
+2026-01-08 12:14:59,296 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 12:14:59,296 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:15:27,548 - INFO - LLM API call successful for batch_10_posts - tokens: 6565 (prompt: 4036, completion: 2529)
+2026-01-08 12:15:27,549 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:15:27,550 - INFO - Batch 1 complete - classifications: {'rant': 4, 'listicle': 1, 'value-add': 2, 'other': 3}, avg confidence: 0.63
+2026-01-08 12:15:27,550 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 12:15:27,550 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:15:47,624 - INFO - LLM API call successful for batch_10_posts - tokens: 6422 (prompt: 4376, completion: 2046)
+2026-01-08 12:15:47,625 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:15:47,625 - INFO - Batch 2 complete - classifications: {'other': 3, 'listicle': 1, 'value-add': 2, 'rant': 4}, avg confidence: 0.70
+2026-01-08 12:15:47,626 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 12:15:47,626 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:16:07,062 - INFO - LLM API call successful for batch_10_posts - tokens: 6471 (prompt: 4325, completion: 2146)
+2026-01-08 12:16:07,063 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:16:07,064 - INFO - Batch 3 complete - classifications: {'rant': 6, 'value-add': 2, 'other': 2}, avg confidence: 0.72
+2026-01-08 12:16:07,064 - INFO - Classifying batch 4/4 (4 posts)
+2026-01-08 12:16:07,064 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 12:16:21,609 - INFO - LLM API call successful for batch_4_posts - tokens: 3853 (prompt: 2584, completion: 1269)
+2026-01-08 12:16:21,609 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 12:16:21,609 - INFO - Batch 4 complete - classifications: {'rant': 3, 'other': 1}, avg confidence: 0.84
+2026-01-08 12:16:21,613 - INFO - Updated webhosting.json with classifications
+2026-01-08 12:16:21,614 - INFO - webhosting: listicle=2, value-add=5, playbook=0, rant=5
+2026-01-08 12:16:21,616 - INFO - Processing money (23 posts)...
+2026-01-08 12:16:21,616 - INFO - Processing 23 posts in 3 batches of up to 10 posts each
+2026-01-08 12:16:21,616 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 12:16:21,616 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:16:51,348 - INFO - LLM API call successful for batch_10_posts - tokens: 8006 (prompt: 4452, completion: 3554)
+2026-01-08 12:16:51,350 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:16:51,350 - INFO - Batch 1 complete - classifications: {'value-add': 4, 'other': 6}, avg confidence: 0.65
+2026-01-08 12:16:51,350 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 12:16:51,350 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:17:13,364 - INFO - LLM API call successful for batch_10_posts - tokens: 6457 (prompt: 4045, completion: 2412)
+2026-01-08 12:17:13,365 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:17:13,365 - INFO - Batch 2 complete - classifications: {'other': 9, 'rant': 1}, avg confidence: 0.62
+2026-01-08 12:17:13,365 - INFO - Classifying batch 3/3 (3 posts)
+2026-01-08 12:17:13,366 - INFO - Starting LLM classification for batch_3_posts
+2026-01-08 12:17:26,811 - INFO - LLM API call successful for batch_3_posts - tokens: 3958 (prompt: 2452, completion: 1506)
+2026-01-08 12:17:26,812 - INFO - Successfully classified batch_3_posts - got 3 valid classifications
+2026-01-08 12:17:26,812 - INFO - Batch 3 complete - classifications: {'other': 1, 'playbook': 1, 'value-add': 1}, avg confidence: 0.73
+2026-01-08 12:17:26,816 - INFO - Updated money.json with classifications
+2026-01-08 12:17:26,818 - INFO - money: listicle=0, value-add=5, playbook=1, rant=1
+2026-01-08 12:17:26,820 - INFO - Processing edtech (27 posts)...
+2026-01-08 12:17:26,820 - INFO - Processing 27 posts in 3 batches of up to 10 posts each
+2026-01-08 12:17:26,821 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 12:17:26,821 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:17:47,259 - INFO - LLM API call successful for batch_10_posts - tokens: 6753 (prompt: 4291, completion: 2462)
+2026-01-08 12:17:47,260 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:17:47,261 - INFO - Batch 1 complete - classifications: {'other': 3, 'listicle': 2, 'value-add': 3, 'rant': 2}, avg confidence: 0.63
+2026-01-08 12:17:47,261 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 12:17:47,261 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:18:10,670 - INFO - LLM API call successful for batch_10_posts - tokens: 7159 (prompt: 4481, completion: 2678)
+2026-01-08 12:18:10,671 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:18:10,672 - INFO - Batch 2 complete - classifications: {'other': 3, 'rant': 2, 'value-add': 4, 'listicle': 1}, avg confidence: 0.70
+2026-01-08 12:18:10,672 - INFO - Classifying batch 3/3 (7 posts)
+2026-01-08 12:18:10,672 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 12:18:29,099 - INFO - LLM API call successful for batch_7_posts - tokens: 5425 (prompt: 3181, completion: 2244)
+2026-01-08 12:18:29,099 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 12:18:29,100 - INFO - Batch 3 complete - classifications: {'other': 6, 'playbook': 1}, avg confidence: 0.62
+2026-01-08 12:18:29,105 - INFO - Updated edtech.json with classifications
+2026-01-08 12:18:29,107 - INFO - edtech: listicle=3, value-add=5, playbook=1, rant=4
+2026-01-08 12:18:29,108 - INFO - Processing investmenteducation (11 posts)...
+2026-01-08 12:18:29,108 - INFO - Processing 11 posts in 2 batches of up to 10 posts each
+2026-01-08 12:18:29,108 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:18:29,109 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:18:51,360 - INFO - LLM API call successful for batch_10_posts - tokens: 6698 (prompt: 4157, completion: 2541)
+2026-01-08 12:18:51,361 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:18:51,363 - INFO - Batch 1 complete - classifications: {'other': 8, 'value-add': 1, 'playbook': 1}, avg confidence: 0.64
+2026-01-08 12:18:51,363 - INFO - Classifying batch 2/2 (1 posts)
+2026-01-08 12:18:51,364 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 12:18:57,731 - INFO - LLM API call successful for batch_1_posts - tokens: 2356 (prompt: 1907, completion: 449)
+2026-01-08 12:18:57,732 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 12:18:57,732 - INFO - Batch 2 complete - classifications: {'value-add': 1}, avg confidence: 0.78
+2026-01-08 12:18:57,735 - INFO - Updated investmenteducation.json with classifications
+2026-01-08 12:18:57,736 - INFO - investmenteducation: listicle=0, value-add=2, playbook=1, rant=0
+2026-01-08 12:18:57,738 - INFO - Processing affiliatemarketing (46 posts)...
+2026-01-08 12:18:57,738 - INFO - Processing 46 posts in 5 batches of up to 10 posts each
+2026-01-08 12:18:57,739 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:18:57,739 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:19:20,970 - INFO - LLM API call successful for batch_10_posts - tokens: 8120 (prompt: 5335, completion: 2785)
+2026-01-08 12:19:20,971 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:19:20,971 - INFO - Batch 1 complete - classifications: {'listicle': 3, 'other': 2, 'playbook': 1, 'value-add': 4}, avg confidence: 0.68
+2026-01-08 12:19:20,972 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:19:20,972 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:19:33,441 - INFO - LLM API call successful for batch_10_posts - tokens: 7057 (prompt: 5274, completion: 1783)
+2026-01-08 12:19:33,441 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:19:33,442 - INFO - Batch 2 complete - classifications: {'listicle': 2, 'value-add': 4, 'playbook': 2, 'rant': 1, 'other': 1}, avg confidence: 0.72
+2026-01-08 12:19:33,442 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:19:33,442 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:19:52,696 - INFO - LLM API call successful for batch_10_posts - tokens: 7458 (prompt: 4819, completion: 2639)
+2026-01-08 12:19:52,697 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:19:52,697 - INFO - Batch 3 complete - classifications: {'playbook': 2, 'value-add': 5, 'listicle': 1, 'other': 2}, avg confidence: 0.71
+2026-01-08 12:19:52,697 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:19:52,697 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:20:10,814 - INFO - LLM API call successful for batch_10_posts - tokens: 7200 (prompt: 4722, completion: 2478)
+2026-01-08 12:20:10,815 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:20:10,816 - INFO - Batch 4 complete - classifications: {'value-add': 3, 'listicle': 3, 'playbook': 1, 'rant': 2, 'other': 1}, avg confidence: 0.72
+2026-01-08 12:20:10,816 - INFO - Classifying batch 5/5 (6 posts)
+2026-01-08 12:20:10,816 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 12:20:23,788 - INFO - LLM API call successful for batch_6_posts - tokens: 5254 (prompt: 3628, completion: 1626)
+2026-01-08 12:20:23,788 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 12:20:23,788 - INFO - Batch 5 complete - classifications: {'listicle': 1, 'other': 2, 'value-add': 2, 'rant': 1}, avg confidence: 0.71
+2026-01-08 12:20:23,796 - INFO - Updated affiliatemarketing.json with classifications
+2026-01-08 12:20:23,798 - INFO - affiliatemarketing: listicle=5, value-add=5, playbook=5, rant=4
+2026-01-08 12:20:23,800 - INFO - Processing consulting (7 posts)...
+2026-01-08 12:20:23,801 - INFO - Processing 7 posts in 1 batches of up to 10 posts each
+2026-01-08 12:20:23,801 - INFO - Classifying batch 1/1 (7 posts)
+2026-01-08 12:20:23,801 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 12:20:44,470 - INFO - LLM API call successful for batch_7_posts - tokens: 6461 (prompt: 3657, completion: 2804)
+2026-01-08 12:20:44,471 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 12:20:44,471 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'rant': 2, 'value-add': 3}, avg confidence: 0.66
+2026-01-08 12:20:44,474 - INFO - Updated consulting.json with classifications
+2026-01-08 12:20:44,475 - INFO - consulting: listicle=2, value-add=3, playbook=0, rant=2
+2026-01-08 12:20:44,482 - INFO - Processing saas (90 posts)...
+2026-01-08 12:20:44,482 - INFO - Processing 90 posts in 9 batches of up to 10 posts each
+2026-01-08 12:20:44,482 - INFO - Classifying batch 1/9 (10 posts)
+2026-01-08 12:20:44,484 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:21:05,663 - INFO - LLM API call successful for batch_10_posts - tokens: 8346 (prompt: 5601, completion: 2745)
+2026-01-08 12:21:05,664 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:21:05,664 - INFO - Batch 1 complete - classifications: {'value-add': 3, 'listicle': 1, 'playbook': 4, 'other': 2}, avg confidence: 0.70
+2026-01-08 12:21:05,664 - INFO - Classifying batch 2/9 (10 posts)
+2026-01-08 12:21:05,665 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:21:35,978 - INFO - LLM API call successful for batch_10_posts - tokens: 10105 (prompt: 6296, completion: 3809)
+2026-01-08 12:21:35,979 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:21:35,979 - INFO - Batch 2 complete - classifications: {'rant': 2, 'value-add': 4, 'listicle': 3, 'playbook': 1}, avg confidence: 0.74
+2026-01-08 12:21:35,979 - INFO - Classifying batch 3/9 (10 posts)
+2026-01-08 12:21:35,980 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:21:54,264 - INFO - LLM API call successful for batch_10_posts - tokens: 7654 (prompt: 5278, completion: 2376)
+2026-01-08 12:21:54,266 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:21:54,266 - INFO - Batch 3 complete - classifications: {'value-add': 4, 'playbook': 2, 'listicle': 2, 'other': 2}, avg confidence: 0.71
+2026-01-08 12:21:54,266 - INFO - Classifying batch 4/9 (10 posts)
+2026-01-08 12:21:54,266 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:22:17,999 - INFO - LLM API call successful for batch_10_posts - tokens: 8307 (prompt: 5494, completion: 2813)
+2026-01-08 12:22:18,000 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:22:18,001 - INFO - Batch 4 complete - classifications: {'listicle': 3, 'value-add': 4, 'playbook': 2, 'other': 1}, avg confidence: 0.75
+2026-01-08 12:22:18,001 - INFO - Classifying batch 5/9 (10 posts)
+2026-01-08 12:22:18,001 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:22:43,408 - INFO - LLM API call successful for batch_10_posts - tokens: 8953 (prompt: 5859, completion: 3094)
+2026-01-08 12:22:43,410 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:22:43,410 - INFO - Batch 5 complete - classifications: {'value-add': 4, 'listicle': 2, 'playbook': 3, 'rant': 1}, avg confidence: 0.72
+2026-01-08 12:22:43,410 - INFO - Classifying batch 6/9 (10 posts)
+2026-01-08 12:22:43,410 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:23:06,682 - INFO - LLM API call successful for batch_10_posts - tokens: 8172 (prompt: 5300, completion: 2872)
+2026-01-08 12:23:06,683 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:23:06,684 - INFO - Batch 6 complete - classifications: {'value-add': 4, 'other': 2, 'rant': 3, 'playbook': 1}, avg confidence: 0.72
+2026-01-08 12:23:06,684 - INFO - Classifying batch 7/9 (10 posts)
+2026-01-08 12:23:06,684 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:23:35,273 - INFO - LLM API call successful for batch_10_posts - tokens: 7879 (prompt: 4544, completion: 3335)
+2026-01-08 12:23:35,273 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:23:35,273 - INFO - Batch 7 complete - classifications: {'value-add': 4, 'playbook': 3, 'rant': 2, 'other': 1}, avg confidence: 0.73
+2026-01-08 12:23:35,273 - INFO - Classifying batch 8/9 (10 posts)
+2026-01-08 12:23:35,273 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:23:53,228 - INFO - LLM API call successful for batch_10_posts - tokens: 8067 (prompt: 5867, completion: 2200)
+2026-01-08 12:23:53,230 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:23:53,230 - INFO - Batch 8 complete - classifications: {'listicle': 3, 'value-add': 3, 'playbook': 2, 'other': 2}, avg confidence: 0.78
+2026-01-08 12:23:53,230 - INFO - Classifying batch 9/9 (10 posts)
+2026-01-08 12:23:53,230 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:24:19,045 - INFO - LLM API call successful for batch_10_posts - tokens: 8927 (prompt: 5860, completion: 3067)
+2026-01-08 12:24:19,046 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:24:19,046 - INFO - Batch 9 complete - classifications: {'value-add': 6, 'rant': 1, 'playbook': 1, 'listicle': 1, 'other': 1}, avg confidence: 0.68
+2026-01-08 12:24:19,053 - INFO - Updated saas.json with classifications
+2026-01-08 12:24:19,054 - INFO - saas: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 12:24:19,056 - INFO - Processing datasciencejobs (55 posts)...
+2026-01-08 12:24:19,056 - INFO - Processing 55 posts in 6 batches of up to 10 posts each
+2026-01-08 12:24:19,056 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 12:24:19,056 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:24:46,551 - INFO - LLM API call successful for batch_10_posts - tokens: 7678 (prompt: 4558, completion: 3120)
+2026-01-08 12:24:46,553 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:24:46,554 - INFO - Batch 1 complete - classifications: {'listicle': 1, 'value-add': 3, 'rant': 3, 'other': 3}, avg confidence: 0.69
+2026-01-08 12:24:46,554 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 12:24:46,554 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:25:07,065 - INFO - LLM API call successful for batch_10_posts - tokens: 6989 (prompt: 4172, completion: 2817)
+2026-01-08 12:25:07,066 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:25:07,066 - INFO - Batch 2 complete - classifications: {'other': 4, 'rant': 2, 'value-add': 4}, avg confidence: 0.66
+2026-01-08 12:25:07,066 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 12:25:07,066 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:25:27,253 - INFO - LLM API call successful for batch_10_posts - tokens: 6371 (prompt: 3936, completion: 2435)
+2026-01-08 12:25:27,253 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:25:27,253 - INFO - Batch 3 complete - classifications: {'other': 7, 'rant': 3}, avg confidence: 0.67
+2026-01-08 12:25:27,254 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 12:25:27,254 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:25:45,761 - INFO - LLM API call successful for batch_10_posts - tokens: 6828 (prompt: 4121, completion: 2707)
+2026-01-08 12:25:45,762 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:25:45,765 - INFO - Batch 4 complete - classifications: {'other': 7, 'playbook': 2, 'value-add': 1}, avg confidence: 0.59
+2026-01-08 12:25:45,766 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 12:25:45,766 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:26:04,775 - INFO - LLM API call successful for batch_10_posts - tokens: 6342 (prompt: 4050, completion: 2292)
+2026-01-08 12:26:04,776 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:26:04,776 - INFO - Batch 5 complete - classifications: {'other': 8, 'rant': 2}, avg confidence: 0.62
+2026-01-08 12:26:04,776 - INFO - Classifying batch 6/6 (5 posts)
+2026-01-08 12:26:04,777 - INFO - Starting LLM classification for batch_5_posts
+2026-01-08 12:26:24,005 - INFO - LLM API call successful for batch_5_posts - tokens: 5503 (prompt: 3075, completion: 2428)
+2026-01-08 12:26:24,006 - INFO - Successfully classified batch_5_posts - got 5 valid classifications
+2026-01-08 12:26:24,007 - INFO - Batch 6 complete - classifications: {'other': 5}, avg confidence: 0.60
+2026-01-08 12:26:24,015 - INFO - Updated datasciencejobs.json with classifications
+2026-01-08 12:26:24,016 - INFO - datasciencejobs: listicle=1, value-add=5, playbook=2, rant=5
+2026-01-08 12:26:24,019 - INFO - Processing ukpersonalfinance (35 posts)...
+2026-01-08 12:26:24,019 - INFO - Processing 35 posts in 4 batches of up to 10 posts each
+2026-01-08 12:26:24,019 - INFO - Classifying batch 1/4 (10 posts)
+2026-01-08 12:26:24,019 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:26:47,591 - INFO - LLM API call successful for batch_10_posts - tokens: 7953 (prompt: 5154, completion: 2799)
+2026-01-08 12:26:47,592 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:26:47,592 - INFO - Batch 1 complete - classifications: {'other': 5, 'listicle': 1, 'playbook': 3, 'rant': 1}, avg confidence: 0.68
+2026-01-08 12:26:47,592 - INFO - Classifying batch 2/4 (10 posts)
+2026-01-08 12:26:47,593 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:27:06,625 - INFO - LLM API call successful for batch_10_posts - tokens: 7167 (prompt: 4743, completion: 2424)
+2026-01-08 12:27:06,626 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:27:06,626 - INFO - Batch 2 complete - classifications: {'other': 9, 'listicle': 1}, avg confidence: 0.63
+2026-01-08 12:27:06,627 - INFO - Classifying batch 3/4 (10 posts)
+2026-01-08 12:27:06,627 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:27:30,887 - INFO - LLM API call successful for batch_10_posts - tokens: 7319 (prompt: 4616, completion: 2703)
+2026-01-08 12:27:30,888 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:27:30,888 - INFO - Batch 3 complete - classifications: {'other': 9, 'value-add': 1}, avg confidence: 0.56
+2026-01-08 12:27:30,888 - INFO - Classifying batch 4/4 (5 posts)
+2026-01-08 12:27:30,888 - INFO - Starting LLM classification for batch_5_posts
+2026-01-08 12:27:48,147 - INFO - LLM API call successful for batch_5_posts - tokens: 5359 (prompt: 3193, completion: 2166)
+2026-01-08 12:27:48,148 - INFO - Successfully classified batch_5_posts - got 5 valid classifications
+2026-01-08 12:27:48,148 - INFO - Batch 4 complete - classifications: {'other': 3, 'value-add': 1, 'listicle': 1}, avg confidence: 0.64
+2026-01-08 12:27:48,157 - INFO - Updated ukpersonalfinance.json with classifications
+2026-01-08 12:27:48,158 - INFO - ukpersonalfinance: listicle=3, value-add=2, playbook=3, rant=1
+2026-01-08 12:27:48,161 - INFO - Processing ecommerce (41 posts)...
+2026-01-08 12:27:48,161 - INFO - Processing 41 posts in 5 batches of up to 10 posts each
+2026-01-08 12:27:48,161 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:27:48,162 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:28:08,583 - INFO - LLM API call successful for batch_10_posts - tokens: 7717 (prompt: 4908, completion: 2809)
+2026-01-08 12:28:08,584 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:28:08,584 - INFO - Batch 1 complete - classifications: {'rant': 6, 'value-add': 2, 'listicle': 1, 'playbook': 1}, avg confidence: 0.71
+2026-01-08 12:28:08,585 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:28:08,585 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:28:31,093 - INFO - LLM API call successful for batch_10_posts - tokens: 7438 (prompt: 4282, completion: 3156)
+2026-01-08 12:28:31,094 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:28:31,094 - INFO - Batch 2 complete - classifications: {'rant': 4, 'other': 3, 'playbook': 3}, avg confidence: 0.72
+2026-01-08 12:28:31,094 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:28:31,095 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:28:58,447 - INFO - LLM API call successful for batch_10_posts - tokens: 8835 (prompt: 5019, completion: 3816)
+2026-01-08 12:28:58,449 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:28:58,449 - INFO - Batch 3 complete - classifications: {'rant': 2, 'other': 4, 'listicle': 2, 'playbook': 1, 'value-add': 1}, avg confidence: 0.64
+2026-01-08 12:28:58,449 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:28:58,449 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:29:15,909 - INFO - LLM API call successful for batch_10_posts - tokens: 7153 (prompt: 4783, completion: 2370)
+2026-01-08 12:29:15,910 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:29:15,911 - INFO - Batch 4 complete - classifications: {'value-add': 4, 'playbook': 2, 'rant': 2, 'other': 2}, avg confidence: 0.72
+2026-01-08 12:29:15,911 - INFO - Classifying batch 5/5 (1 posts)
+2026-01-08 12:29:15,911 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 12:29:19,130 - INFO - LLM API call successful for batch_1_posts - tokens: 2257 (prompt: 1885, completion: 372)
+2026-01-08 12:29:19,130 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 12:29:19,130 - INFO - Batch 5 complete - classifications: {'other': 1}, avg confidence: 0.62
+2026-01-08 12:29:19,134 - INFO - Updated ecommerce.json with classifications
+2026-01-08 12:29:19,135 - INFO - ecommerce: listicle=3, value-add=5, playbook=5, rant=5
+2026-01-08 12:29:19,137 - INFO - Processing uxdesign (29 posts)...
+2026-01-08 12:29:19,137 - INFO - Processing 29 posts in 3 batches of up to 10 posts each
+2026-01-08 12:29:19,137 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 12:29:19,137 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:29:41,417 - INFO - LLM API call successful for batch_10_posts - tokens: 7303 (prompt: 4694, completion: 2609)
+2026-01-08 12:29:41,418 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:29:41,418 - INFO - Batch 1 complete - classifications: {'rant': 5, 'other': 2, 'value-add': 1, 'listicle': 2}, avg confidence: 0.76
+2026-01-08 12:29:41,418 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 12:29:41,418 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:30:10,219 - INFO - LLM API call successful for batch_10_posts - tokens: 8704 (prompt: 5236, completion: 3468)
+2026-01-08 12:30:10,220 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:30:10,220 - INFO - Batch 2 complete - classifications: {'value-add': 4, 'rant': 3, 'listicle': 2, 'other': 1}, avg confidence: 0.72
+2026-01-08 12:30:10,220 - INFO - Classifying batch 3/3 (9 posts)
+2026-01-08 12:30:10,220 - INFO - Starting LLM classification for batch_9_posts
+2026-01-08 12:30:30,704 - INFO - LLM API call successful for batch_9_posts - tokens: 6082 (prompt: 3579, completion: 2503)
+2026-01-08 12:30:30,705 - INFO - Successfully classified batch_9_posts - got 9 valid classifications
+2026-01-08 12:30:30,705 - INFO - Batch 3 complete - classifications: {'rant': 4, 'value-add': 4, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 12:30:30,707 - INFO - Updated uxdesign.json with classifications
+2026-01-08 12:30:30,708 - INFO - uxdesign: listicle=5, value-add=5, playbook=0, rant=5
+2026-01-08 12:30:30,710 - INFO - Processing startups (42 posts)...
+2026-01-08 12:30:30,710 - INFO - Processing 42 posts in 5 batches of up to 10 posts each
+2026-01-08 12:30:30,710 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:30:30,710 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:30:51,424 - INFO - LLM API call successful for batch_10_posts - tokens: 7566 (prompt: 5282, completion: 2284)
+2026-01-08 12:30:51,424 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:30:51,424 - INFO - Batch 1 complete - classifications: {'listicle': 2, 'value-add': 2, 'rant': 1, 'playbook': 1, 'other': 4}, avg confidence: 0.64
+2026-01-08 12:30:51,424 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:30:51,425 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:31:28,255 - INFO - LLM API call successful for batch_10_posts - tokens: 8975 (prompt: 5478, completion: 3497)
+2026-01-08 12:31:28,256 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:31:28,257 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'listicle': 2, 'playbook': 3, 'rant': 2, 'other': 1}, avg confidence: 0.72
+2026-01-08 12:31:28,257 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:31:28,257 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:31:59,692 - INFO - LLM API call successful for batch_10_posts - tokens: 8021 (prompt: 4897, completion: 3124)
+2026-01-08 12:31:59,694 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:31:59,695 - INFO - Batch 3 complete - classifications: {'other': 2, 'rant': 2, 'listicle': 1, 'value-add': 3, 'playbook': 2}, avg confidence: 0.70
+2026-01-08 12:31:59,695 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:31:59,695 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:32:24,373 - INFO - LLM API call successful for batch_10_posts - tokens: 7156 (prompt: 4543, completion: 2613)
+2026-01-08 12:32:24,374 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:32:24,375 - INFO - Batch 4 complete - classifications: {'rant': 3, 'value-add': 5, 'other': 1, 'playbook': 1}, avg confidence: 0.66
+2026-01-08 12:32:24,375 - INFO - Classifying batch 5/5 (2 posts)
+2026-01-08 12:32:24,375 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:32:35,815 - INFO - LLM API call successful for batch_2_posts - tokens: 3746 (prompt: 2669, completion: 1077)
+2026-01-08 12:32:35,816 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:32:35,816 - INFO - Batch 5 complete - classifications: {'other': 1, 'value-add': 1}, avg confidence: 0.68
+2026-01-08 12:32:35,821 - INFO - Updated startups.json with classifications
+2026-01-08 12:32:35,823 - INFO - startups: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 12:32:35,825 - INFO - Processing flipping (15 posts)...
+2026-01-08 12:32:35,825 - INFO - Processing 15 posts in 2 batches of up to 10 posts each
+2026-01-08 12:32:35,825 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:32:35,825 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:32:55,053 - INFO - LLM API call successful for batch_10_posts - tokens: 6866 (prompt: 4676, completion: 2190)
+2026-01-08 12:32:55,054 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:32:55,054 - INFO - Batch 1 complete - classifications: {'playbook': 2, 'other': 5, 'rant': 1, 'value-add': 2}, avg confidence: 0.66
+2026-01-08 12:32:55,054 - INFO - Classifying batch 2/2 (5 posts)
+2026-01-08 12:32:55,054 - INFO - Starting LLM classification for batch_5_posts
+2026-01-08 12:33:12,984 - INFO - LLM API call successful for batch_5_posts - tokens: 5361 (prompt: 3221, completion: 2140)
+2026-01-08 12:33:12,985 - INFO - Successfully classified batch_5_posts - got 5 valid classifications
+2026-01-08 12:33:12,986 - INFO - Batch 2 complete - classifications: {'other': 1, 'playbook': 2, 'value-add': 2}, avg confidence: 0.67
+2026-01-08 12:33:12,989 - INFO - Updated flipping.json with classifications
+2026-01-08 12:33:12,991 - INFO - flipping: listicle=0, value-add=4, playbook=4, rant=1
+2026-01-08 12:33:12,993 - INFO - Processing appideas (21 posts)...
+2026-01-08 12:33:12,993 - INFO - Processing 21 posts in 3 batches of up to 10 posts each
+2026-01-08 12:33:12,993 - INFO - Classifying batch 1/3 (10 posts)
+2026-01-08 12:33:12,994 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:33:38,597 - INFO - LLM API call successful for batch_10_posts - tokens: 6759 (prompt: 4380, completion: 2379)
+2026-01-08 12:33:38,598 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:33:38,598 - INFO - Batch 1 complete - classifications: {'other': 6, 'listicle': 2, 'playbook': 2}, avg confidence: 0.67
+2026-01-08 12:33:38,598 - INFO - Classifying batch 2/3 (10 posts)
+2026-01-08 12:33:38,598 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:34:02,065 - INFO - LLM API call successful for batch_10_posts - tokens: 6406 (prompt: 3916, completion: 2490)
+2026-01-08 12:34:02,066 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:34:02,066 - INFO - Batch 2 complete - classifications: {'other': 3, 'rant': 1, 'value-add': 4, 'listicle': 1, 'playbook': 1}, avg confidence: 0.71
+2026-01-08 12:34:02,067 - INFO - Classifying batch 3/3 (1 posts)
+2026-01-08 12:34:02,067 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 12:34:08,923 - INFO - LLM API call successful for batch_1_posts - tokens: 2870 (prompt: 2240, completion: 630)
+2026-01-08 12:34:08,923 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 12:34:08,924 - INFO - Batch 3 complete - classifications: {'playbook': 1}, avg confidence: 0.78
+2026-01-08 12:34:08,929 - INFO - Updated appideas.json with classifications
+2026-01-08 12:34:08,930 - INFO - appideas: listicle=3, value-add=4, playbook=4, rant=1
+2026-01-08 12:34:08,934 - INFO - Processing appbusiness (56 posts)...
+2026-01-08 12:34:08,934 - INFO - Processing 56 posts in 6 batches of up to 10 posts each
+2026-01-08 12:34:08,934 - INFO - Classifying batch 1/6 (10 posts)
+2026-01-08 12:34:08,934 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:34:33,500 - INFO - LLM API call successful for batch_10_posts - tokens: 7381 (prompt: 4507, completion: 2874)
+2026-01-08 12:34:33,502 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:34:33,502 - INFO - Batch 1 complete - classifications: {'other': 4, 'listicle': 2, 'value-add': 4}, avg confidence: 0.66
+2026-01-08 12:34:33,502 - INFO - Classifying batch 2/6 (10 posts)
+2026-01-08 12:34:33,502 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:35:00,307 - INFO - LLM API call successful for batch_10_posts - tokens: 7348 (prompt: 4287, completion: 3061)
+2026-01-08 12:35:00,309 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:35:00,309 - INFO - Batch 2 complete - classifications: {'value-add': 2, 'other': 6, 'playbook': 1, 'rant': 1}, avg confidence: 0.67
+2026-01-08 12:35:00,309 - INFO - Classifying batch 3/6 (10 posts)
+2026-01-08 12:35:00,309 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:35:23,012 - INFO - LLM API call successful for batch_10_posts - tokens: 7103 (prompt: 4262, completion: 2841)
+2026-01-08 12:35:23,013 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:35:23,014 - INFO - Batch 3 complete - classifications: {'value-add': 5, 'playbook': 1, 'other': 2, 'listicle': 2}, avg confidence: 0.68
+2026-01-08 12:35:23,014 - INFO - Classifying batch 4/6 (10 posts)
+2026-01-08 12:35:23,014 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:35:44,920 - INFO - LLM API call successful for batch_10_posts - tokens: 7431 (prompt: 4608, completion: 2823)
+2026-01-08 12:35:44,921 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:35:44,922 - INFO - Batch 4 complete - classifications: {'other': 1, 'value-add': 9}, avg confidence: 0.66
+2026-01-08 12:35:44,922 - INFO - Classifying batch 5/6 (10 posts)
+2026-01-08 12:35:44,922 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:36:09,960 - INFO - LLM API call successful for batch_10_posts - tokens: 7104 (prompt: 4400, completion: 2704)
+2026-01-08 12:36:09,960 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:36:09,963 - INFO - Batch 5 complete - classifications: {'listicle': 1, 'value-add': 4, 'other': 5}, avg confidence: 0.66
+2026-01-08 12:36:09,963 - INFO - Classifying batch 6/6 (6 posts)
+2026-01-08 12:36:09,963 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 12:36:27,675 - INFO - LLM API call successful for batch_6_posts - tokens: 5455 (prompt: 3653, completion: 1802)
+2026-01-08 12:36:27,675 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 12:36:27,675 - INFO - Batch 6 complete - classifications: {'other': 1, 'value-add': 4, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 12:36:27,685 - INFO - Updated appbusiness.json with classifications
+2026-01-08 12:36:27,686 - INFO - appbusiness: listicle=5, value-add=5, playbook=2, rant=1
+2026-01-08 12:36:27,687 - WARNING - No posts in webdevtutorials.json
+2026-01-08 12:36:27,690 - INFO - Processing leadgeneration (68 posts)...
+2026-01-08 12:36:27,691 - INFO - Processing 68 posts in 7 batches of up to 10 posts each
+2026-01-08 12:36:27,691 - INFO - Classifying batch 1/7 (10 posts)
+2026-01-08 12:36:27,693 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:36:51,503 - INFO - LLM API call successful for batch_10_posts - tokens: 8277 (prompt: 5621, completion: 2656)
+2026-01-08 12:36:51,503 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:36:51,503 - INFO - Batch 1 complete - classifications: {'playbook': 4, 'listicle': 2, 'other': 1, 'rant': 2, 'value-add': 1}, avg confidence: 0.78
+2026-01-08 12:36:51,503 - INFO - Classifying batch 2/7 (10 posts)
+2026-01-08 12:36:51,503 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:37:17,340 - INFO - LLM API call successful for batch_10_posts - tokens: 7661 (prompt: 4711, completion: 2950)
+2026-01-08 12:37:17,342 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:37:17,342 - INFO - Batch 2 complete - classifications: {'listicle': 1, 'other': 3, 'value-add': 3, 'playbook': 1, 'rant': 2}, avg confidence: 0.69
+2026-01-08 12:37:17,342 - INFO - Classifying batch 3/7 (10 posts)
+2026-01-08 12:37:17,342 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:37:41,095 - INFO - LLM API call successful for batch_10_posts - tokens: 7745 (prompt: 4737, completion: 3008)
+2026-01-08 12:37:41,097 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:37:41,099 - INFO - Batch 3 complete - classifications: {'rant': 2, 'playbook': 2, 'other': 5, 'listicle': 1}, avg confidence: 0.71
+2026-01-08 12:37:41,099 - INFO - Classifying batch 4/7 (10 posts)
+2026-01-08 12:37:41,099 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:38:02,396 - INFO - LLM API call successful for batch_10_posts - tokens: 7638 (prompt: 4722, completion: 2916)
+2026-01-08 12:38:02,397 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:38:02,397 - INFO - Batch 4 complete - classifications: {'playbook': 4, 'value-add': 2, 'listicle': 1, 'other': 3}, avg confidence: 0.65
+2026-01-08 12:38:02,398 - INFO - Classifying batch 5/7 (10 posts)
+2026-01-08 12:38:02,398 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:38:18,814 - INFO - LLM API call successful for batch_10_posts - tokens: 6695 (prompt: 4555, completion: 2140)
+2026-01-08 12:38:18,814 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:38:18,814 - INFO - Batch 5 complete - classifications: {'listicle': 1, 'value-add': 3, 'other': 3, 'playbook': 2, 'rant': 1}, avg confidence: 0.69
+2026-01-08 12:38:18,815 - INFO - Classifying batch 6/7 (10 posts)
+2026-01-08 12:38:18,815 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:38:42,433 - INFO - LLM API call successful for batch_10_posts - tokens: 6824 (prompt: 3943, completion: 2881)
+2026-01-08 12:38:42,433 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:38:42,436 - INFO - Batch 6 complete - classifications: {'other': 6, 'value-add': 3, 'rant': 1}, avg confidence: 0.55
+2026-01-08 12:38:42,436 - INFO - Classifying batch 7/7 (8 posts)
+2026-01-08 12:38:42,436 - INFO - Starting LLM classification for batch_8_posts
+2026-01-08 12:39:05,575 - INFO - LLM API call successful for batch_8_posts - tokens: 5982 (prompt: 3433, completion: 2549)
+2026-01-08 12:39:05,576 - INFO - Successfully classified batch_8_posts - got 8 valid classifications
+2026-01-08 12:39:05,576 - INFO - Batch 7 complete - classifications: {'other': 4, 'rant': 1, 'listicle': 1, 'playbook': 1, 'value-add': 1}, avg confidence: 0.67
+2026-01-08 12:39:05,581 - INFO - Updated leadgeneration.json with classifications
+2026-01-08 12:39:05,582 - INFO - leadgeneration: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 12:39:05,583 - WARNING - No posts in b2b_marketing.json
+2026-01-08 12:39:05,584 - INFO - Processing freelance (12 posts)...
+2026-01-08 12:39:05,584 - INFO - Processing 12 posts in 2 batches of up to 10 posts each
+2026-01-08 12:39:05,584 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:39:05,584 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:39:28,067 - INFO - LLM API call successful for batch_10_posts - tokens: 7745 (prompt: 4658, completion: 3087)
+2026-01-08 12:39:28,068 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:39:28,070 - INFO - Batch 1 complete - classifications: {'rant': 5, 'other': 3, 'value-add': 2}, avg confidence: 0.61
+2026-01-08 12:39:28,070 - INFO - Classifying batch 2/2 (2 posts)
+2026-01-08 12:39:28,071 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:39:32,817 - INFO - LLM API call successful for batch_2_posts - tokens: 2622 (prompt: 2078, completion: 544)
+2026-01-08 12:39:32,817 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:39:32,817 - INFO - Batch 2 complete - classifications: {'rant': 2}, avg confidence: 0.85
+2026-01-08 12:39:32,821 - INFO - Updated freelance.json with classifications
+2026-01-08 12:39:32,822 - INFO - freelance: listicle=0, value-add=2, playbook=0, rant=5
+2026-01-08 12:39:32,823 - WARNING - No posts in affiliate_marketing.json
+2026-01-08 12:39:32,824 - INFO - Processing realestatetechnology (41 posts)...
+2026-01-08 12:39:32,824 - INFO - Processing 41 posts in 5 batches of up to 10 posts each
+2026-01-08 12:39:32,824 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:39:32,824 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:40:01,470 - INFO - LLM API call successful for batch_10_posts - tokens: 8255 (prompt: 4626, completion: 3629)
+2026-01-08 12:40:01,472 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:40:01,472 - INFO - Batch 1 complete - classifications: {'listicle': 4, 'other': 4, 'value-add': 2}, avg confidence: 0.72
+2026-01-08 12:40:01,472 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:40:01,472 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:40:17,172 - INFO - LLM API call successful for batch_10_posts - tokens: 6093 (prompt: 4044, completion: 2049)
+2026-01-08 12:40:17,172 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:40:17,175 - INFO - Batch 2 complete - classifications: {'listicle': 2, 'rant': 1, 'value-add': 3, 'other': 3, 'playbook': 1}, avg confidence: 0.71
+2026-01-08 12:40:17,175 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:40:17,175 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:40:39,250 - INFO - LLM API call successful for batch_10_posts - tokens: 7178 (prompt: 3986, completion: 3192)
+2026-01-08 12:40:39,251 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:40:39,251 - INFO - Batch 3 complete - classifications: {'value-add': 4, 'other': 4, 'rant': 2}, avg confidence: 0.62
+2026-01-08 12:40:39,251 - INFO - Classifying batch 4/5 (10 posts)
+2026-01-08 12:40:39,252 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:41:04,360 - INFO - LLM API call successful for batch_10_posts - tokens: 7483 (prompt: 4435, completion: 3048)
+2026-01-08 12:41:04,361 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:41:04,364 - INFO - Batch 4 complete - classifications: {'listicle': 2, 'other': 6, 'value-add': 2}, avg confidence: 0.64
+2026-01-08 12:41:04,365 - INFO - Classifying batch 5/5 (1 posts)
+2026-01-08 12:41:04,365 - INFO - Starting LLM classification for batch_1_posts
+2026-01-08 12:41:08,414 - INFO - LLM API call successful for batch_1_posts - tokens: 2316 (prompt: 1872, completion: 444)
+2026-01-08 12:41:08,415 - INFO - Successfully classified batch_1_posts - got 1 valid classifications
+2026-01-08 12:41:08,415 - INFO - Batch 5 complete - classifications: {'other': 1}, avg confidence: 0.62
+2026-01-08 12:41:08,424 - INFO - Updated realestatetechnology.json with classifications
+2026-01-08 12:41:08,426 - INFO - realestatetechnology: listicle=5, value-add=5, playbook=1, rant=3
+2026-01-08 12:41:08,428 - WARNING - No posts in retailtech.json
+2026-01-08 12:41:08,431 - INFO - Processing entrepreneurs (82 posts)...
+2026-01-08 12:41:08,431 - INFO - Processing 82 posts in 9 batches of up to 10 posts each
+2026-01-08 12:41:08,431 - INFO - Classifying batch 1/9 (10 posts)
+2026-01-08 12:41:08,431 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:41:33,291 - INFO - LLM API call successful for batch_10_posts - tokens: 8560 (prompt: 5478, completion: 3082)
+2026-01-08 12:41:33,295 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:41:33,295 - INFO - Batch 1 complete - classifications: {'value-add': 5, 'other': 1, 'playbook': 2, 'listicle': 1, 'rant': 1}, avg confidence: 0.74
+2026-01-08 12:41:33,295 - INFO - Classifying batch 2/9 (10 posts)
+2026-01-08 12:41:33,295 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:41:49,314 - INFO - LLM API call successful for batch_10_posts - tokens: 6319 (prompt: 4073, completion: 2246)
+2026-01-08 12:41:49,315 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:41:49,319 - INFO - Batch 2 complete - classifications: {'playbook': 2, 'value-add': 6, 'other': 2}, avg confidence: 0.69
+2026-01-08 12:41:49,319 - INFO - Classifying batch 3/9 (10 posts)
+2026-01-08 12:41:49,320 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:42:09,486 - INFO - LLM API call successful for batch_10_posts - tokens: 7536 (prompt: 4374, completion: 3162)
+2026-01-08 12:42:09,487 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:42:09,487 - INFO - Batch 3 complete - classifications: {'other': 3, 'value-add': 3, 'rant': 2, 'playbook': 2}, avg confidence: 0.72
+2026-01-08 12:42:09,487 - INFO - Classifying batch 4/9 (10 posts)
+2026-01-08 12:42:09,488 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:42:33,192 - INFO - LLM API call successful for batch_10_posts - tokens: 6987 (prompt: 4376, completion: 2611)
+2026-01-08 12:42:33,193 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:42:33,193 - INFO - Batch 4 complete - classifications: {'other': 4, 'value-add': 4, 'rant': 1, 'listicle': 1}, avg confidence: 0.73
+2026-01-08 12:42:33,193 - INFO - Classifying batch 5/9 (10 posts)
+2026-01-08 12:42:33,194 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:42:53,119 - INFO - LLM API call successful for batch_10_posts - tokens: 6692 (prompt: 4089, completion: 2603)
+2026-01-08 12:42:53,119 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:42:53,120 - INFO - Batch 5 complete - classifications: {'other': 5, 'rant': 1, 'value-add': 3, 'listicle': 1}, avg confidence: 0.67
+2026-01-08 12:42:53,120 - INFO - Classifying batch 6/9 (10 posts)
+2026-01-08 12:42:53,120 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:43:16,561 - INFO - LLM API call successful for batch_10_posts - tokens: 6756 (prompt: 3796, completion: 2960)
+2026-01-08 12:43:16,561 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:43:16,561 - INFO - Batch 6 complete - classifications: {'value-add': 2, 'other': 7, 'rant': 1}, avg confidence: 0.60
+2026-01-08 12:43:16,562 - INFO - Classifying batch 7/9 (10 posts)
+2026-01-08 12:43:16,562 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:43:34,197 - INFO - LLM API call successful for batch_10_posts - tokens: 7319 (prompt: 4963, completion: 2356)
+2026-01-08 12:43:34,198 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:43:34,198 - INFO - Batch 7 complete - classifications: {'rant': 1, 'other': 3, 'playbook': 1, 'value-add': 4, 'listicle': 1}, avg confidence: 0.69
+2026-01-08 12:43:34,198 - INFO - Classifying batch 8/9 (10 posts)
+2026-01-08 12:43:34,198 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:43:57,417 - INFO - LLM API call successful for batch_10_posts - tokens: 7608 (prompt: 4767, completion: 2841)
+2026-01-08 12:43:57,417 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:43:57,417 - INFO - Batch 8 complete - classifications: {'value-add': 4, 'other': 5, 'listicle': 1}, avg confidence: 0.66
+2026-01-08 12:43:57,418 - INFO - Classifying batch 9/9 (2 posts)
+2026-01-08 12:43:57,418 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:44:05,591 - INFO - LLM API call successful for batch_2_posts - tokens: 3123 (prompt: 2120, completion: 1003)
+2026-01-08 12:44:05,592 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:44:05,592 - INFO - Batch 9 complete - classifications: {'other': 1, 'value-add': 1}, avg confidence: 0.69
+2026-01-08 12:44:05,602 - INFO - Updated entrepreneurs.json with classifications
+2026-01-08 12:44:05,604 - INFO - entrepreneurs: listicle=5, value-add=5, playbook=5, rant=5
+2026-01-08 12:44:05,607 - WARNING - No posts in constructiontech.json
+2026-01-08 12:44:05,608 - INFO - Processing accounting (7 posts)...
+2026-01-08 12:44:05,608 - INFO - Processing 7 posts in 1 batches of up to 10 posts each
+2026-01-08 12:44:05,608 - INFO - Classifying batch 1/1 (7 posts)
+2026-01-08 12:44:05,608 - INFO - Starting LLM classification for batch_7_posts
+2026-01-08 12:44:21,514 - INFO - LLM API call successful for batch_7_posts - tokens: 5250 (prompt: 3082, completion: 2168)
+2026-01-08 12:44:21,515 - INFO - Successfully classified batch_7_posts - got 7 valid classifications
+2026-01-08 12:44:21,515 - INFO - Batch 1 complete - classifications: {'rant': 5, 'value-add': 1, 'other': 1}, avg confidence: 0.70
+2026-01-08 12:44:21,517 - INFO - Updated accounting.json with classifications
+2026-01-08 12:44:21,518 - INFO - accounting: listicle=0, value-add=1, playbook=0, rant=5
+2026-01-08 12:44:21,519 - INFO - Processing insurtech (12 posts)...
+2026-01-08 12:44:21,519 - INFO - Processing 12 posts in 2 batches of up to 10 posts each
+2026-01-08 12:44:21,519 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:44:21,519 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:44:42,883 - INFO - LLM API call successful for batch_10_posts - tokens: 6663 (prompt: 4045, completion: 2618)
+2026-01-08 12:44:42,884 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:44:42,886 - INFO - Batch 1 complete - classifications: {'value-add': 6, 'other': 4}, avg confidence: 0.62
+2026-01-08 12:44:42,886 - INFO - Classifying batch 2/2 (2 posts)
+2026-01-08 12:44:42,886 - INFO - Starting LLM classification for batch_2_posts
+2026-01-08 12:44:51,463 - INFO - LLM API call successful for batch_2_posts - tokens: 3545 (prompt: 2484, completion: 1061)
+2026-01-08 12:44:51,463 - INFO - Successfully classified batch_2_posts - got 2 valid classifications
+2026-01-08 12:44:51,463 - INFO - Batch 2 complete - classifications: {'other': 2}, avg confidence: 0.60
+2026-01-08 12:44:51,468 - INFO - Updated insurtech.json with classifications
+2026-01-08 12:44:51,469 - INFO - insurtech: listicle=0, value-add=5, playbook=0, rant=0
+2026-01-08 12:44:51,472 - INFO - Processing figmadesign (14 posts)...
+2026-01-08 12:44:51,472 - INFO - Processing 14 posts in 2 batches of up to 10 posts each
+2026-01-08 12:44:51,472 - INFO - Classifying batch 1/2 (10 posts)
+2026-01-08 12:44:51,472 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:45:13,706 - INFO - LLM API call successful for batch_10_posts - tokens: 6727 (prompt: 3861, completion: 2866)
+2026-01-08 12:45:13,708 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:45:13,708 - INFO - Batch 1 complete - classifications: {'other': 4, 'value-add': 3, 'listicle': 1, 'rant': 2}, avg confidence: 0.68
+2026-01-08 12:45:13,708 - INFO - Classifying batch 2/2 (4 posts)
+2026-01-08 12:45:13,708 - INFO - Starting LLM classification for batch_4_posts
+2026-01-08 12:45:24,969 - INFO - LLM API call successful for batch_4_posts - tokens: 3710 (prompt: 2508, completion: 1202)
+2026-01-08 12:45:24,969 - INFO - Successfully classified batch_4_posts - got 4 valid classifications
+2026-01-08 12:45:24,969 - INFO - Batch 2 complete - classifications: {'listicle': 2, 'other': 1, 'rant': 1}, avg confidence: 0.72
+2026-01-08 12:45:24,974 - INFO - Updated figmadesign.json with classifications
+2026-01-08 12:45:24,975 - INFO - figmadesign: listicle=3, value-add=3, playbook=0, rant=3
+2026-01-08 12:45:24,976 - INFO - Processing ui_design (6 posts)...
+2026-01-08 12:45:24,976 - INFO - Processing 6 posts in 1 batches of up to 10 posts each
+2026-01-08 12:45:24,976 - INFO - Classifying batch 1/1 (6 posts)
+2026-01-08 12:45:24,976 - INFO - Starting LLM classification for batch_6_posts
+2026-01-08 12:45:41,952 - INFO - LLM API call successful for batch_6_posts - tokens: 4985 (prompt: 2795, completion: 2190)
+2026-01-08 12:45:41,954 - INFO - Successfully classified batch_6_posts - got 6 valid classifications
+2026-01-08 12:45:41,954 - INFO - Batch 1 complete - classifications: {'listicle': 3, 'value-add': 3}, avg confidence: 0.66
+2026-01-08 12:45:41,957 - INFO - Updated ui_design.json with classifications
+2026-01-08 12:45:41,958 - INFO - ui_design: listicle=3, value-add=3, playbook=0, rant=0
+2026-01-08 12:45:41,960 - INFO - Processing valueinvesting (43 posts)...
+2026-01-08 12:45:41,961 - INFO - Processing 43 posts in 5 batches of up to 10 posts each
+2026-01-08 12:45:41,961 - INFO - Classifying batch 1/5 (10 posts)
+2026-01-08 12:45:41,961 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:46:00,116 - INFO - LLM API call successful for batch_10_posts - tokens: 7484 (prompt: 5202, completion: 2282)
+2026-01-08 12:46:00,117 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:46:00,118 - INFO - Batch 1 complete - classifications: {'value-add': 9, 'rant': 1}, avg confidence: 0.65
+2026-01-08 12:46:00,118 - INFO - Classifying batch 2/5 (10 posts)
+2026-01-08 12:46:00,118 - INFO - Starting LLM classification for batch_10_posts
+2026-01-08 12:46:15,061 - INFO - LLM API call successful for batch_10_posts - tokens: 6605 (prompt: 4547, completion: 2058)
+2026-01-08 12:46:15,062 - INFO - Successfully classified batch_10_posts - got 10 valid classifications
+2026-01-08 12:46:15,067 - INFO - Batch 2 complete - classifications: {'value-add': 7, 'other': 2, 'listicle': 1}, avg confidence: 0.77
+2026-01-08 12:46:15,067 - INFO - Classifying batch 3/5 (10 posts)
+2026-01-08 12:46:15,067 - INFO - Starting LLM classification for batch_10_posts
