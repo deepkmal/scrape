@@ -8,13 +8,14 @@ The `category` field must be exactly one of: `listicle`, `value-add`, `playbook`
 
 ### Listicle
 
-**Definition (use this):** A post whose primary payload is a finite set of tools or products ONLY where the reader's value comes from curation/selection, not a process or argument. 
+**Definition (use this):** A post whose primary payload is a finite set of tools or products where the reader's value comes from curation/selection, not a process or argument. 
 
 **Must have:**
 - 2+ distinct items that could be separated into bullets/numbered entries
-- Each item is a thing (tool/product/books), not a step or idea
+- Each item is an object (tool/product/book),
 
 **Must not be:**
+- A list of steps, idea, concepts or pieces of advice.
 - A step-by-step method (that's Playbook)
 - Mainly an explanation/model (that's Value-add)
 - Mainly emotional complaint (that's Rant)
